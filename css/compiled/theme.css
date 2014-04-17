@@ -189,7 +189,7 @@ li.sign-btn a{
   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.9); }*/
 
 .block, .inner-block {
-  padding: 80px 0; }
+  padding: 40px 0; }
   .block header, .inner-block header {
     text-align: center;
     color: #6D7176;
@@ -776,7 +776,7 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 563px;
+  height: 420px;
   margin: 120px 0 10px; }
   @media (max-width: 767px) {
     .banner {
