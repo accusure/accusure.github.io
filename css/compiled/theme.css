@@ -137,9 +137,9 @@ form {
           text-align: left; } }
       .navbar-inverse .navbar-nav > li > a {
         color: rgba(255, 255, 255, 0.8);
-        text-transform: uppercase;
+        text-transform: capitalize;
         padding: 18px 15px;
-        font-size: 13px;
+        font-size: 16px;
         -webkit-transition: color 0.1s linear;
         -moz-transition: color 0.1s linear;
         -ms-transition: color 0.1s linear;
@@ -165,9 +165,9 @@ form {
             position: relative;
             left: 50px; } }
         .navbar-inverse .navbar-nav > li.sign-btn:hover {
-          background: #cacfca; }
+          background: #3FB669; }
           .navbar-inverse .navbar-nav > li.sign-btn:hover a {
-            color: #00457d }
+            color: #fff }
         .navbar-inverse .navbar-nav > li.sign-btn a {
           text-transform: none;
           color: rgba(255, 255, 255, 0.9); }
@@ -178,9 +178,8 @@ form {
 
 /*sign-btn overrides*/
 li.sign-btn a{
-	background:#08B646;
+	background: #369C5A;
 }
-
 
 
 

@@ -61,9 +61,9 @@ form {
 			
 			> a {
 				color:rgba(255,255,255,0.6);
-				text-transform: uppercase;
+				text-transform: capitalize;
 				padding: 18px 15px;
-				font-size: 13px;
+				font-size: 16px;
 				@include transition(color .1s linear);
 
 				@media (min-width: 992px) and (max-width: 1200px) {
@@ -86,7 +86,7 @@ form {
 			}
 
 			&.sign-btn {
-				background:rgb(29, 35, 43);
+				background: #369C5A;
 
 				@media(min-width: 992px) {
 					position: relative;
@@ -94,7 +94,7 @@ form {
 				}
 
 				&:hover {
-					background:#000;
+					background:#3FB669;
 					
 					a {
 						color: #fff;
