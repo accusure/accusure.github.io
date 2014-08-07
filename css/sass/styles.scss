@@ -1,0 +1,77 @@
+$blue: #58c8e2;
+$white: #fafafa;
+
+@mixin parallax($imgpath) {
+  min-height: 800px;
+  height: 800px;
+  position: relative;
+  background: url($imgpath) 50% 0 fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .content {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    color: $white;
+    button {
+      margin-top: 30%;
+    }
+  }
+}
+
+.big {
+  font-size: 80px;
+}
+.human {
+  font-size: 200px;
+}
+button {
+  background: $blue;
+  color: darken($white, 5%);
+  &:hover {
+    color: $white !important;
+    background: saturate($blue, 10%);
+  }
+}
+.brand {
+  margin: 10px 30px 10px 0;
+  display: block;
+  width: 110px;
+}
+#banner {
+  @include parallax('../images/sample.jpg');
+}
+#banner2 {
+  @include parallax('../images/sample2.jpg');
+}
+#banner3 {
+  @include parallax('../images/sample3.jpg');
+}
+#banner4 {
+  @include parallax('../images/sample4.jpg');
+}
+#features, #video, #why, #checklist {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+#why {
+  button {
+    margin-top: 20%;
+  }
+}
+#team {
+  background: darken($white, 5%);
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+footer {
+  background: darken($white, 80%);
+  color: $white;
+  padding: 10px 0;
+  p {
+    margin: 0;
+  }
+}

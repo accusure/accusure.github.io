@@ -1,0 +1,152 @@
+/* line 25, ../sass/styles.scss */
+.big {
+  font-size: 80px;
+}
+
+/* line 28, ../sass/styles.scss */
+.human {
+  font-size: 200px;
+}
+
+/* line 31, ../sass/styles.scss */
+button {
+  background: #58c8e2;
+  color: #ededed;
+}
+/* line 34, ../sass/styles.scss */
+button:hover {
+  color: #fafafa !important;
+  background: #4eceec;
+}
+
+/* line 39, ../sass/styles.scss */
+.brand {
+  margin: 10px 30px 10px 0;
+  display: block;
+  width: 110px;
+}
+
+/* line 44, ../sass/styles.scss */
+#banner {
+  min-height: 800px;
+  height: 800px;
+  position: relative;
+  background: url("../images/sample.jpg") 50% 0 fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 13, ../sass/styles.scss */
+#banner .content {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  color: #fafafa;
+}
+/* line 19, ../sass/styles.scss */
+#banner .content button {
+  margin-top: 30%;
+}
+
+/* line 47, ../sass/styles.scss */
+#banner2 {
+  min-height: 800px;
+  height: 800px;
+  position: relative;
+  background: url("../images/sample2.jpg") 50% 0 fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 13, ../sass/styles.scss */
+#banner2 .content {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  color: #fafafa;
+}
+/* line 19, ../sass/styles.scss */
+#banner2 .content button {
+  margin-top: 30%;
+}
+
+/* line 50, ../sass/styles.scss */
+#banner3 {
+  min-height: 800px;
+  height: 800px;
+  position: relative;
+  background: url("../images/sample3.jpg") 50% 0 fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 13, ../sass/styles.scss */
+#banner3 .content {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  color: #fafafa;
+}
+/* line 19, ../sass/styles.scss */
+#banner3 .content button {
+  margin-top: 30%;
+}
+
+/* line 53, ../sass/styles.scss */
+#banner4 {
+  min-height: 800px;
+  height: 800px;
+  position: relative;
+  background: url("../images/sample4.jpg") 50% 0 fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 13, ../sass/styles.scss */
+#banner4 .content {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  color: #fafafa;
+}
+/* line 19, ../sass/styles.scss */
+#banner4 .content button {
+  margin-top: 30%;
+}
+
+/* line 56, ../sass/styles.scss */
+#features, #video, #why, #checklist {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+/* line 61, ../sass/styles.scss */
+#why button {
+  margin-top: 20%;
+}
+
+/* line 65, ../sass/styles.scss */
+#team {
+  background: #ededed;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+/* line 70, ../sass/styles.scss */
+footer {
+  background: #2e2e2e;
+  color: #fafafa;
+  padding: 10px 0;
+}
+/* line 74, ../sass/styles.scss */
+footer p {
+  margin: 0;
+}
