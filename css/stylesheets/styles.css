@@ -1,152 +1,147 @@
-/* line 25, ../sass/styles.scss */
+/* line 4, ../sass/styles.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 7, ../sass/styles.scss */
+.content {
+  color: #fafafa;
+  margin-top: 20%;
+}
+/* line 10, ../sass/styles.scss */
+.content .bottom {
+  margin-top: 25%;
+}
+
+/* line 14, ../sass/styles.scss */
+.secure {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/* line 18, ../sass/styles.scss */
 .big {
   font-size: 80px;
 }
 
-/* line 28, ../sass/styles.scss */
+/* line 21, ../sass/styles.scss */
 .human {
   font-size: 200px;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
+.nav .secure {
+  padding: 18px 15px;
+  display: block;
+}
+
+/* line 30, ../sass/styles.scss */
 button {
   background: #58c8e2;
   color: #ededed;
 }
-/* line 34, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 button:hover {
   color: #fafafa !important;
   background: #4eceec;
 }
 
-/* line 39, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 .brand {
   margin: 10px 30px 10px 0;
   display: block;
   width: 110px;
 }
 
-/* line 44, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 #banner {
-  min-height: 800px;
-  height: 800px;
-  position: relative;
-  background: url("../images/sample.jpg") 50% 0 fixed no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("../images/sample.jpg") no-repeat;
   background-size: cover;
-}
-/* line 13, ../sass/styles.scss */
-#banner .content {
-  position: absolute;
-  top: 20%;
-  left: 0;
-  width: 100%;
-  color: #fafafa;
-}
-/* line 19, ../sass/styles.scss */
-#banner .content button {
-  margin-top: 30%;
 }
 
 /* line 47, ../sass/styles.scss */
 #banner2 {
-  min-height: 800px;
-  height: 800px;
-  position: relative;
-  background: url("../images/sample2.jpg") 50% 0 fixed no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("../images/sample2.jpg") no-repeat;
   background-size: cover;
 }
-/* line 13, ../sass/styles.scss */
-#banner2 .content {
-  position: absolute;
-  top: 20%;
-  left: 0;
-  width: 100%;
-  color: #fafafa;
-}
-/* line 19, ../sass/styles.scss */
-#banner2 .content button {
-  margin-top: 30%;
-}
 
-/* line 50, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 #banner3 {
-  min-height: 800px;
-  height: 800px;
-  position: relative;
-  background: url("../images/sample3.jpg") 50% 0 fixed no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("../images/sample3.jpg") no-repeat;
   background-size: cover;
 }
-/* line 13, ../sass/styles.scss */
-#banner3 .content {
-  position: absolute;
-  top: 20%;
-  left: 0;
-  width: 100%;
-  color: #fafafa;
-}
-/* line 19, ../sass/styles.scss */
-#banner3 .content button {
-  margin-top: 30%;
-}
 
-/* line 53, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 #banner4 {
-  min-height: 800px;
-  height: 800px;
-  position: relative;
-  background: url("../images/sample4.jpg") 50% 0 fixed no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("../images/sample4.jpg") no-repeat;
   background-size: cover;
 }
-/* line 13, ../sass/styles.scss */
-#banner4 .content {
-  position: absolute;
-  top: 20%;
-  left: 0;
-  width: 100%;
-  color: #fafafa;
-}
-/* line 19, ../sass/styles.scss */
-#banner4 .content button {
-  margin-top: 30%;
+
+/* line 59, ../sass/styles.scss */
+#features, #checklist {
+  padding-top: 15%;
 }
 
-/* line 56, ../sass/styles.scss */
-#features, #video, #why, #checklist {
-  padding-top: 8em;
-  padding-bottom: 8em;
+/* line 62, ../sass/styles.scss */
+#why {
+  padding-top: 10%;
 }
 
-/* line 61, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
+#video {
+  padding-top: 8%;
+}
+
+/* line 69, ../sass/styles.scss */
 #why button {
   margin-top: 20%;
 }
 
-/* line 65, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 #team {
   background: #ededed;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 8%;
 }
 
-/* line 70, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 footer {
   background: #2e2e2e;
   color: #fafafa;
   padding: 10px 0;
 }
-/* line 74, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 footer p {
   margin: 0;
+}
+
+/** PANEL SNAP **/
+/* line 87, ../sass/styles.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 92, ../sass/styles.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 95, ../sass/styles.scss */
+section {
+  position: relative;
+  overflow: hidden;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 102, ../sass/styles.scss */
+.panels {
+  position: absolute;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }

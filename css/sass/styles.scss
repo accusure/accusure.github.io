@@ -1,32 +1,31 @@
 $blue: #58c8e2;
 $white: #fafafa;
 
-@mixin parallax($imgpath) {
-  min-height: 800px;
-  height: 800px;
-  position: relative;
-  background: url($imgpath) 50% 0 fixed no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  .content {
-    position: absolute;
-    top: 20%;
-    left: 0;
-    width: 100%;
-    color: $white;
-    button {
-      margin-top: 30%;
-    }
+p {
+  font-size: 16px;
+}
+.content {
+  color: $white;
+  margin-top: 20%;
+  .bottom {
+    margin-top: 25%;
   }
 }
-
+.secure {
+  font-size: 10px;
+  text-transform: uppercase;
+}
 .big {
   font-size: 80px;
 }
 .human {
   font-size: 200px;
+}
+.nav {
+  .secure {
+    padding: 18px 15px;
+    display: block;
+  }
 }
 button {
   background: $blue;
@@ -42,20 +41,29 @@ button {
   width: 110px;
 }
 #banner {
-  @include parallax('../images/sample.jpg');
+  background: url('../images/sample.jpg') no-repeat;
+  background-size: cover;
 }
 #banner2 {
-  @include parallax('../images/sample2.jpg');
+  background: url('../images/sample2.jpg') no-repeat;
+  background-size: cover;
 }
 #banner3 {
-  @include parallax('../images/sample3.jpg');
+  background: url('../images/sample3.jpg') no-repeat;
+  background-size: cover;
 }
 #banner4 {
-  @include parallax('../images/sample4.jpg');
+  background: url('../images/sample4.jpg') no-repeat;
+  background-size: cover;
 }
-#features, #video, #why, #checklist {
-  padding-top: 8em;
-  padding-bottom: 8em;
+#features, #checklist {
+  padding-top: 15%;
+}
+#why {
+  padding-top: 10%;
+}
+#video {
+  padding-top: 8%;
 }
 #why {
   button {
@@ -64,8 +72,7 @@ button {
 }
 #team {
   background: darken($white, 5%);
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 8%;
 }
 footer {
   background: darken($white, 80%);
@@ -74,4 +81,29 @@ footer {
   p {
     margin: 0;
   }
+}
+
+/** PANEL SNAP **/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+section {
+  position: relative;
+  overflow: hidden;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+.panels {
+  position: absolute;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
