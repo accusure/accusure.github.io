@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AccuSure</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,500italic,700,700italic,900,900italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
 
     <link href="css/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheets/font-awesome.min.css">
     <link href="css/stylesheets/styles.css" rel="stylesheet">
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -17,7 +23,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -30,28 +36,26 @@
         </div> <!-- /navbar-header -->
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="" data-panel="second">How it Works</a></li>
-            <li><a href="" data-panel="fourth">Watch</a></li>
+            <li class="active"><a href="" data-panel="first">What we do</a></li>
+            <li><a href="" data-panel="fourth">How it Works</a></li>
             <li><a href="" data-panel="sixth">Why Accusure</a></li>
-            <li><a href="" data-panel="seventh">Who We Are</a></li>
-            <li><small class="secure"><span class="glyphicon glyphicon-lock"></span> Secure Site</small></li>
+            <li><a href="#">Blog</a></li> <!-- no link provided yet -->
+            <li><small class="secure"><span class="fa fa-lock"></span>&nbsp; Secure Site</small></li>
           </ul>
         </div> <!-- /collapse -->
       </div> <!-- /container -->
     </div> <!-- /navbar -->
     
     <div class="panels">
-      <section id="banner" data-panel="first" data-type="background" data-speed="10">
+      <section id="banner" data-panel="first" class="full">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6 col-md-offset-6">
               <div class="content">
-                <h1>Simple. Accurate. Fast.</h1>
-                <p>Fill out one application to see relevant,</br>
-                competive quotes from prequalified agents</p>
+                <h1>Take control of your business insurance.</h1>
+                <p>Get quotes that are easy for you to compare. Our simplified process empowers you to make confident, educated insurance decisions.</p>
                 <div class="bottom">
-                  <button class="btn btn-lg">Get your FREE personalized quotes now <i class="glyphicon glyphicon-chevron-right"></i></button>
-                  <small class="secure pull-right"><span class="glyphicon glyphicon-lock"></span> Your Privacy is Our Priority</small>
+                  <button class="btn btn-lg">Start comparing quotes now <i class="fa fa-arrow-circle-o-right"></i></button>
                 </div>
               </div>
             </div>
@@ -59,38 +63,49 @@
         </div> <!-- /container -->
       </section> <!-- /#banner -->
       
-      <section id="features" data-panel="second">
+      <section id="features" data-panel="second" class="full">
         <div class="container">
           <div class="row text-center">
-            <div class="col-md-4 col-sm-4">
-              <i class="glyphicon glyphicon-list-alt big"></i>
-              <h2>One Form, One Time</h2>
-              <p>Fill out just one industry-specific applicaiton to get a wide selection of quotes from all major insurances.</p>
+            <div class="col-md-12">
+              <h2>3 easy steps to your comparable quotes.</h2>
             </div>
-            <div class="col-md-4 col-sm-4">
-              <i class="glyphicon glyphicon-user big"></i>
-              <h2>Pre-qualified Agents</h2>
-              <p>We let only the top agents compete for your business to give you the best possible options</p>
+          </div> <!-- /row -->
+          <div class="row item">
+            <div class="col-md-3 col-md-offset-2">
+              <h3>1. One form. One time.</h3>
             </div>
-            <div class="col-md-4 col-sm-4">
-              <i class="glyphicon glyphicon-folder-open big"></i>
-              <h2>Unbiased, Comparable Options</h2>
-              <p>All of your quotes are based on the same criteria provided to a wide-range of pre-qualified agents and presented in a simple dashboard.</p>
+            <div class="col-md-5">
+              <p>Fill out just one industry-specific application to get quotes from a variety of insurance carriers in the marketplace.</p>
             </div>
-          </div>
+          </div> <!-- /row -->
+          <div class="row item">
+            <div class="col-md-3 col-md-offset-2">
+              <h3>2. We find you options.</h3>
+            </div>
+            <div class="col-md-5">
+              <p>Prequalified agents compete for your business so you receive the best possible quotes and service.</p>
+            </div>
+          </div> <!-- /row -->
+          <div class="row item">
+            <div class="col-md-3 col-md-offset-2">
+              <h3>3. Take control.</h3>
+            </div>
+            <div class="col-md-5">
+              <p>The Quote Analyzer tool gives you the upper hand so you can make side-by-side comparisons and store all of your important information in one accessible place.</p>
+            </div>
+          </div> <!-- /row -->
         </div> <!-- /container -->
       </section> <!-- /#features -->
       
-      <section id="banner2" data-panel="third">
+      <section id="banner2" data-panel="third" class="full">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-5">
               <div class="content">
-                <h1>Learn More. Save More</h1>
-                <p>We arem you with the right questions to give you the inside track on </br>
-                 insurance acquisition.</p>
+                <h1>Be confident in your decisions. </h1>
+                <p>We educate you on business insurance to give you the inside track on understanding the process of insurance acquisition.</p>
                 <div class="bottom">
-                  <button class="btn btn-lg">Get your FREE personalized quotes now <i class="glyphicon glyphicon-chevron-right"></i></button>
+                  <button class="btn btn-lg">Start comparing quotes now <i class="fa fa-arrow-circle-o-right"></i></button>
                 </div>
               </div>
             </div>
@@ -98,29 +113,27 @@
         </div> <!-- /container -->
       </section> <!-- /#banner2 -->
       
-      <section id="video" data-panel="fourth">
+      <section id="video" data-panel="fourth" class="full">
         <div class="container text-center">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2>AccuSure gives you the upper hand.</h2>
-              <p>See how Accusure puts small and medium businesses in control of their business insurance options.</p>
-              <img class="img-responsive" src="http://placehold.it/1000x600" />
+            <div class="col-md-6 col-md-offset-3">
+              <h1>See how we do the hardwork for you.</h1>
+              <p>Watch the video</p>
+              <i class="fa fa-play-circle-o"></i>
             </div>
           </div> <!-- /row -->
         </div> <!-- /container -->
       </section> <!-- /#video -->
       
-      <section id="banner3" data-panel="fifth">
+      <section id="banner3" data-panel="fifth" class="full">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-5 col-md-offset-6">
               <div class="content">
-                <h2>Unbiased, competitive quotes.</h2>
-                <p>All of our agents are thouroughly evaluated and </br>
-                pre-qualified to compete for your business</p>
+                <h2>Less paperwork, more work-work.</h2>
+                <p>Spend about 61% less time quoting business insurance when working with AccuSure, freeing up more time to do the work you love.</p>
                 <div class="bottom">
-                  <button class="btn btn-lg">Get your FREE personalized quotes now <i class="glyphicon glyphicon-chevron-right"></i></button>
-                  <small class="secure pull-right"><span class="glyphicon glyphicon-lock"></span> Your Privacy is Our Priority</small>
+                  <button class="btn btn-lg">Start comparing quotes now <i class="fa fa-arrow-circle-o-right"></i></button>
                 </div>
               </div>
             </div>
@@ -128,83 +141,60 @@
         </div> <!-- /container -->
       </section> <!-- /#banner3 -->
       
-      <section id="why" data-panel="sixth">
+      <section id="why" data-panel="sixth" class="full">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-md-offset-1">
+            <div class="col-md-8 col-md-offset-2 text-center">
               <h2>Why AccuSure?</h2>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-              <button class="btn btn-lg">Get your FREE personalized quotes now <i class="glyphicon glyphicon-chevron-right"></i></button>
+              <p>AccuSure breaks down the insurance quoting process in the simplest way possible to provide clarity in the complicated business insurance industry. Our goal is to empower you to make confident, educated decisions for your small or medium-sized business to save you time. We operate independently from insurance agents and carriers, so you can trust us to always be unbiased and fair.</p>
+              <p><b>Your best interest is always our best interest.</b></p>
             </div>
           </div> <!-- /row -->
         </div> <!-- /container -->
       </section> <!--/ #why -->
       
-      <section id="team" data-panel="seventh">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-xs-8 col-md-offset-1">
-              <h2>We're here for you.</h2>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-            </div>
-            <div class="col-md-3 col-xs-4 text-center">
-              <span class="glyphicon glyphicon-user human"></span>
-              <h4>Jamie</h4>
-              <ul class="list-unstyled">
-                <li>Follow on <a href="#">twitter</a></li>
-                <li>Facebook <a href="#">link</a></li>
-              </ul>
-            </div>
-          </div> <!-- /row -->
-          <div class="row">
-            <div class="col-md-3 col-xs-4 text-center col-md-offset-1">
-              <span class="glyphicon glyphicon-user human"></span>
-              <h4>Mike</h4>
-              <ul class="list-unstyled">
-                <li>Follow on <a href="#">twitter</a></li>
-                <li>Facebook <a href="#">link</a></li>
-              </ul>
-            </div>
-            <div class="col-md-6 col-xs-8">
-              <h2>We're here for you.</h2>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-            </div>
-          </div> <!-- /row -->
-        </div> <!-- /container -->
-      </section> <!-- /#team -->
-      
-      <section id="checklist" data-panel="eight">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-sm-4 col-md-offset-1">
-              <span class=" glyphicon glyphicon-download-alt human"></span>
-            </div>
-            <div class="col-md-7 col-sm-8">
-              <h2>Your helpful checklist</h2>
-              <p>We’ll send you a simple checklist for all the documents</br>
-               you’ll need when getting an insurance quote.</p>
-              <form role="form" class="form-inline">
-                <div class="form-group">
-                  <input type="email" class="form-control input-lg" placeholder="Email" />
-                </div>
-                <button class="btn btn-lg">Submit</button>
-              </form>
-            </div>
-          </div> <!-- /row -->
-        </div> <!-- /container -->
-      </section> <!-- /#checklist -->
-      
-      <section id="banner4" data-panel="ninth">
+      <section id="team">
         <div class="container text-center">
           <div class="row">
-            <div class="col-md-12">
-              <div class="content">
-                <button class="btn btn-lg">Get your FREE personalized quotes now <i class="glyphicon glyphicon-chevron-right"></i></button>
+            <div class="col-md-4 col-md-offset-2">
+              <img src="css/images/jamie.png" class="img-responsive" />
+              <div class="details">
+                <h6>Jamie Reid</h6>
+                <p class="position">Chief Executive Officer</p>
+                <p><i class="fa fa-twitter"></i> Follow Jamie on Twitter <a href="#">@AccuSure</a> </br>
+                or link up with the team on our <a href="#">Blog</a></p>
+                <hr>
+                <p class="description">I founded AccuSure to empower business owners. After working 20 years in a variety of roles across the insurance industry, I know what it takes to simplify the process. I’m here to answer any questions, coach you through webinars and to help ensure that you make more educated, confident decisions.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="css/images/mike.png" class="img-responsive" />
+              <div class="details">
+                <h6>Mike Shambach</h6>
+                <p class="position">President</p>
+                <p><i class="fa fa-twitter"></i> Follow Mike on Twitter <a href="#">@AccuSure</a> </br>
+                or link up with the team on our <a href="#">Blog</a></p>
+                <hr>
+                <p class="description">I understand the challenges and frustrations of the business insurance process. I have more than 30 years of experience driving the financial and operational strategies for a variety of companies. I'm passionate and dedicated to providing business owners the tools to reduce their insurance costs and improve their bottom line.</p>
               </div>
             </div>
           </div> <!-- /row -->
         </div> <!-- /container -->
-      </section> <!--/ #banner4 -->
+      </section> <!-- /#team -->
+      <section id="start">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h2>Now’s the time to get started. </br>
+              Start comparing quotes now</h2>
+            </div>
+            <div class="col-md-1">
+              <i class="fa fa-arrow-circle-o-right"></i>
+            </div>
+          </div> <!-- /row -->
+        </div> <!-- /container -->
+      </section> <!-- /#start -->
+      
       <footer>
         <div class="container">
           <div class="row">
@@ -212,7 +202,7 @@
               <p><small>© 2014 Accusure | All Rights Reserved.</small></p>
             </div>
             <div class="col-md-6 col-sm-6 text-right">
-              <p><small class="secure pull-right"><span class="glyphicon glyphicon-lock"></span> Your Privacy is Our Priority</small></p>
+              <p><small class="secure pull-right"><span class="fa fa-lock"></span> Your Privacy is Our Priority</small></p>
             </div>
           </div>
         </div>
