@@ -309,7 +309,7 @@ section.full {
   }
 }
 /** Iphone **/
-@media (max-device-width: 480px) {
+@media (max-width: 480px) {
   /* line 244, ../sass/styles.scss */
   h1 {
     font-size: 28px;
@@ -342,7 +342,7 @@ section.full {
 
   /* line 250, ../sass/styles.scss */
   .content {
-    margin-top: 60%;
+    margin-top: 40%;
     text-align: center;
   }
   /* line 253, ../sass/styles.scss */
@@ -359,80 +359,84 @@ section.full {
 
   /* line 262, ../sass/styles.scss */
   #features {
-    padding-top: 22%;
+    padding-top: 20%;
   }
   /* line 264, ../sass/styles.scss */
   #features .item {
-    padding: 15px 0;
+    padding: 0;
+  }
+  /* line 266, ../sass/styles.scss */
+  #features .item .col-md-8 {
+    padding: 10px 15px;
   }
 
-  /* line 268, ../sass/styles.scss */
+  /* line 271, ../sass/styles.scss */
   #video {
-    padding-top: 40%;
-  }
-
-  /* line 269, ../sass/styles.scss */
-  #why {
     padding-top: 30%;
   }
 
-  /* line 270, ../sass/styles.scss */
-  #team {
-    padding-top: 30%;
-  }
   /* line 272, ../sass/styles.scss */
+  #why {
+    padding-top: 20%;
+  }
+
+  /* line 273, ../sass/styles.scss */
+  #team {
+    padding-top: 20%;
+  }
+  /* line 275, ../sass/styles.scss */
   #team .row {
     margin-bottom: 20px;
   }
-  /* line 274, ../sass/styles.scss */
+  /* line 277, ../sass/styles.scss */
   #team .row p {
     font-size: 12px;
   }
 
-  /* line 280, ../sass/styles.scss */
+  /* line 283, ../sass/styles.scss */
   #banner3 h2, #banner3 p {
     color: black !important;
   }
 
-  /* line 285, ../sass/styles.scss */
+  /* line 288, ../sass/styles.scss */
   footer .text-right {
     float: left;
   }
 }
 /** Ipad Portrait **/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  /* line 295, ../sass/styles.scss */
+  /* line 298, ../sass/styles.scss */
   .panels {
     width: 100%;
     left: 0;
     margin-left: 0;
   }
 
-  /* line 300, ../sass/styles.scss */
+  /* line 303, ../sass/styles.scss */
   .content {
     margin-top: 50%;
   }
-  /* line 302, ../sass/styles.scss */
+  /* line 305, ../sass/styles.scss */
   .content h1, .content p {
     color: #fafafa !important;
   }
 
-  /* line 306, ../sass/styles.scss */
+  /* line 309, ../sass/styles.scss */
   #features {
     padding-top: 15%;
   }
 
-  /* line 307, ../sass/styles.scss */
+  /* line 310, ../sass/styles.scss */
   #video, #why {
     padding-top: 20%;
   }
 
-  /* line 308, ../sass/styles.scss */
+  /* line 311, ../sass/styles.scss */
   #team {
     padding-top: 15%;
   }
 
-  /* line 310, ../sass/styles.scss */
+  /* line 313, ../sass/styles.scss */
   #banner3 h2, #banner3 p {
     color: black !important;
   }

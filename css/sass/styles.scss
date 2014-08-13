@@ -240,7 +240,7 @@ section.full {
 }
 
 /** Iphone **/
-@media (max-device-width: 480px) {
+@media (max-width: 480px) {
   h1 {font-size: 28px;}
   h2 {font-size: 22px;}
   h3 {font-size: 18px;}
@@ -248,7 +248,7 @@ section.full {
   .navbar-header {margin-left: 0 !important;}
   button {font-size: 14px !important;}
   .content { 
-    margin-top: 60%;
+    margin-top: 40%;
     text-align: center;
     h1, p {
       color: $white !important;
@@ -260,15 +260,18 @@ section.full {
     margin-left: 0;
   }
   #features {
-    padding-top: 22%;
+    padding-top: 20%;
     .item {
-      padding: 15px 0;
+      padding: 0;
+      .col-md-8 {
+        padding: 10px 15px;
+      }
     }
   }
-  #video {padding-top: 40%;}
-  #why {padding-top: 30%;}
+  #video {padding-top: 30%;}
+  #why {padding-top: 20%;}
   #team {
-    padding-top: 30%;
+    padding-top: 20%;
     .row {
       margin-bottom: 20px;
       p {
