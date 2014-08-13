@@ -51,7 +51,7 @@ h6 {
 }
 .fa-arrow-circle-o-right {
   font-size: 20px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .nav {
   .secure {
@@ -224,24 +224,19 @@ section.full {
   position: absolute;
   overflow: scroll;
   top: 0;
-  left: 0;
+  left: 50%;
+  margin-left: -610px;
   bottom: 0;
-  width: 100%;
 }
 
-/** Large screens **/
-@media (max-width: 1440px) {
-  .panels, .navbar {
-    width: 1280px;
-    left: 80px;
-  }
-}
-@media (max-width: 1420px) {
-  .panels, .navbar {
+@media (min-width:992px) and (max-width: 1279px) {
+  .panels {
     width: 100%;
     left: 0;
+    margin-left: 0;
   }
 }
+
 /** Iphone **/
 @media (max-device-width: 480px) {
   h1 {font-size: 28px;}
@@ -257,15 +252,16 @@ section.full {
       color: $white !important;
     }
   }
+  .panels {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+  }
   #features {
     padding-top: 22%;
     .item {
       padding: 15px 0;
     }
-  }
-  .panels, .navbar {
-    width: 100%;
-    left: 0;
   }
   #video {padding-top: 40%;}
   #why {padding-top: 30%;}
@@ -294,9 +290,10 @@ section.full {
 and (min-width : 768px) 
 and (max-width : 1024px) 
 and (orientation : portrait) {
-  .panels, .navbar {
+  .panels {
     width: 100%;
     left: 0;
+    margin-left: 0;
   }
   .content {
     margin-top: 50%;
