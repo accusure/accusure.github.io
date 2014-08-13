@@ -60,7 +60,7 @@ h6 {
     color: #668ead;
   }
 }
-button {
+.btn {
   font-family: 'Roboto Slab', serif;
   background: $green;
   color: darken($white, 5%);
@@ -150,7 +150,7 @@ button {
 }
 #why {
   height: 80%;
-  button {
+  .btn {
     margin-top: 20%;
   }
 }
@@ -230,10 +230,16 @@ section.full {
 }
 
 /** Large screens **/
-@media (max-width: 1441px) {
+@media (max-width: 1440px) {
   .panels, .navbar {
     width: 1280px;
     left: 80px;
+  }
+}
+@media (max-width: 1420px) {
+  .panels, .navbar {
+    width: 100%;
+    left: 0;
   }
 }
 /** Iphone **/

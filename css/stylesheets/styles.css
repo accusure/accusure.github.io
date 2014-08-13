@@ -78,14 +78,14 @@ h6 {
 }
 
 /* line 63, ../sass/styles.scss */
-button {
+.btn {
   font-family: 'Roboto Slab', serif;
   background: #b1b227;
   color: #ededed;
   border-radius: 0 !important;
 }
 /* line 68, ../sass/styles.scss */
-button:hover {
+.btn:hover {
   color: #fafafa !important;
   background: #a5a524;
 }
@@ -199,7 +199,7 @@ button:hover {
   height: 80%;
 }
 /* line 153, ../sass/styles.scss */
-#why button {
+#why .btn {
   margin-top: 20%;
 }
 
@@ -301,136 +301,143 @@ section.full {
 }
 
 /** Large screens **/
-@media (max-width: 1441px) {
+@media (max-width: 1440px) {
   /* line 234, ../sass/styles.scss */
   .panels, .navbar {
     width: 1280px;
     left: 80px;
   }
 }
+@media (max-width: 1429px) {
+  /* line 240, ../sass/styles.scss */
+  .panels, .navbar {
+    width: 100%;
+    left: 0;
+  }
+}
 /** Iphone **/
 @media (max-device-width: 480px) {
-  /* line 241, ../sass/styles.scss */
+  /* line 247, ../sass/styles.scss */
   h1 {
     font-size: 28px;
   }
 
-  /* line 242, ../sass/styles.scss */
+  /* line 248, ../sass/styles.scss */
   h2 {
     font-size: 22px;
   }
 
-  /* line 243, ../sass/styles.scss */
+  /* line 249, ../sass/styles.scss */
   h3 {
     font-size: 18px;
   }
 
-  /* line 244, ../sass/styles.scss */
+  /* line 250, ../sass/styles.scss */
   p {
     font-size: 14px !important;
   }
 
-  /* line 245, ../sass/styles.scss */
+  /* line 251, ../sass/styles.scss */
   .navbar-header {
     margin-left: 0 !important;
   }
 
-  /* line 246, ../sass/styles.scss */
+  /* line 252, ../sass/styles.scss */
   button {
     font-size: 14px !important;
   }
 
-  /* line 247, ../sass/styles.scss */
+  /* line 253, ../sass/styles.scss */
   .content {
     margin-top: 60%;
     text-align: center;
   }
-  /* line 250, ../sass/styles.scss */
+  /* line 256, ../sass/styles.scss */
   .content h1, .content p {
     color: #fafafa !important;
   }
 
-  /* line 254, ../sass/styles.scss */
+  /* line 260, ../sass/styles.scss */
   #features {
     padding-top: 22%;
   }
-  /* line 256, ../sass/styles.scss */
+  /* line 262, ../sass/styles.scss */
   #features .item {
     padding: 15px 0;
   }
 
-  /* line 260, ../sass/styles.scss */
+  /* line 266, ../sass/styles.scss */
   .panels, .navbar {
     width: 100%;
     left: 0;
   }
 
-  /* line 264, ../sass/styles.scss */
+  /* line 270, ../sass/styles.scss */
   #video {
     padding-top: 40%;
   }
 
-  /* line 265, ../sass/styles.scss */
+  /* line 271, ../sass/styles.scss */
   #why {
     padding-top: 30%;
   }
 
-  /* line 266, ../sass/styles.scss */
+  /* line 272, ../sass/styles.scss */
   #team {
     padding-top: 30%;
   }
-  /* line 268, ../sass/styles.scss */
+  /* line 274, ../sass/styles.scss */
   #team .row {
     margin-bottom: 20px;
   }
-  /* line 270, ../sass/styles.scss */
+  /* line 276, ../sass/styles.scss */
   #team .row p {
     font-size: 12px;
   }
 
-  /* line 276, ../sass/styles.scss */
+  /* line 282, ../sass/styles.scss */
   #banner3 h2, #banner3 p {
     color: black !important;
   }
 
-  /* line 281, ../sass/styles.scss */
+  /* line 287, ../sass/styles.scss */
   footer .text-right {
     float: left;
   }
 }
 /** Ipad Portrait **/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  /* line 291, ../sass/styles.scss */
+  /* line 297, ../sass/styles.scss */
   .panels, .navbar {
     width: 100%;
     left: 0;
   }
 
-  /* line 295, ../sass/styles.scss */
+  /* line 301, ../sass/styles.scss */
   .content {
     margin-top: 50%;
   }
-  /* line 297, ../sass/styles.scss */
+  /* line 303, ../sass/styles.scss */
   .content h1, .content p {
     color: #fafafa !important;
   }
 
-  /* line 301, ../sass/styles.scss */
+  /* line 307, ../sass/styles.scss */
   #features {
     padding-top: 15%;
   }
 
-  /* line 302, ../sass/styles.scss */
+  /* line 308, ../sass/styles.scss */
   #video, #why {
     padding-top: 20%;
   }
 
-  /* line 303, ../sass/styles.scss */
+  /* line 309, ../sass/styles.scss */
   #team {
     padding-top: 15%;
   }
 
-  /* line 305, ../sass/styles.scss */
+  /* line 311, ../sass/styles.scss */
   #banner3 h2, #banner3 p {
     color: black !important;
   }
