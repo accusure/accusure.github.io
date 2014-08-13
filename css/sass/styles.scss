@@ -101,10 +101,12 @@ h6 {
 }
 #features {
   .item {
-    padding: 30px 0;
-    &:nth-child(3) {
-      border-top: 1px #7fa1bb solid;
-      border-bottom: 1px #7fa1bb solid;
+    .col-md-8 {
+      padding: 30px 0;
+      &.borders {
+        border-top: 1px #7fa1bb solid;
+        border-bottom: 1px #7fa1bb solid;
+      }
     }
   }
   h2 {

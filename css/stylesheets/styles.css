@@ -132,157 +132,157 @@ h6 {
   padding-top: 10%;
 }
 
-/* line 103, ../sass/styles.scss */
-#features .item {
+/* line 104, ../sass/styles.scss */
+#features .item .col-md-8 {
   padding: 30px 0;
 }
-/* line 105, ../sass/styles.scss */
-#features .item:nth-child(3) {
+/* line 106, ../sass/styles.scss */
+#features .item .col-md-8.borders {
   border-top: 1px #7fa1bb solid;
   border-bottom: 1px #7fa1bb solid;
 }
-/* line 110, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 #features h2 {
   color: #34a3cb;
   margin-bottom: 1em;
 }
-/* line 114, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 #features h3 {
   margin: 0;
   color: #004377;
 }
-/* line 118, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 #features p {
   font-size: 16px;
   color: #004377;
 }
 
-/* line 123, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 #why {
   background: #fafafa;
   padding-top: 10%;
 }
-/* line 126, ../sass/styles.scss */
+/* line 128, ../sass/styles.scss */
 #why h2 {
   color: #34a3cb;
 }
-/* line 129, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 #why p {
   color: #004377;
   line-height: 2;
 }
 
-/* line 134, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 #video {
   padding-top: 17%;
   background: #f2b032;
   color: #fafafa;
 }
-/* line 138, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 #video p {
   text-transform: uppercase;
   font-weight: bold;
   margin: 30px 0;
 }
-/* line 143, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 #video .fa-play-circle-o {
   font-size: 60px;
   color: #fafafa;
 }
-/* line 146, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 #video .fa-play-circle-o:hover {
   color: #ededed;
 }
 
-/* line 151, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 #why {
   height: 80%;
 }
-/* line 153, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 #why .btn {
   margin-top: 20%;
 }
 
-/* line 157, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 #team {
   background: #fafafa;
   padding-bottom: 8%;
   padding-top: 5%;
 }
-/* line 161, ../sass/styles.scss */
+/* line 163, ../sass/styles.scss */
 #team img {
   margin-bottom: 20px;
 }
-/* line 164, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 #team p {
   font-size: 18px;
   color: #004377;
 }
-/* line 167, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 #team p.description {
   font-size: 16px;
 }
-/* line 171, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 #team h6 {
   color: #004377;
 }
-/* line 174, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 #team .position {
   margin-bottom: 20px;
 }
 
-/* line 178, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 #start {
   padding: 60px 0;
   background: #b1b227;
 }
-/* line 181, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 #start h2 {
   color: #fafafa;
 }
-/* line 184, ../sass/styles.scss */
+/* line 186, ../sass/styles.scss */
 #start .fa-arrow-circle-o-right {
   font-size: 60px;
   color: #fafafa;
   padding: 35px 0;
   margin-left: 0;
 }
-/* line 190, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 #start:hover {
   background: #9c9d22;
 }
 
-/* line 194, ../sass/styles.scss */
+/* line 196, ../sass/styles.scss */
 footer {
   background: #004377;
   color: #fafafa;
   padding: 20px 0;
 }
-/* line 198, ../sass/styles.scss */
+/* line 200, ../sass/styles.scss */
 footer p {
   margin: 0;
   font-size: 16px;
 }
-/* line 202, ../sass/styles.scss */
+/* line 204, ../sass/styles.scss */
 footer .secure {
   color: #668ead;
   padding: 5px 0;
 }
 
 /** PANEL SNAP **/
-/* line 209, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-/* line 214, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 body {
   overflow-x: hidden;
 }
 
-/* line 217, ../sass/styles.scss */
+/* line 219, ../sass/styles.scss */
 section.full {
   position: relative;
   overflow: hidden;
@@ -290,7 +290,7 @@ section.full {
   height: 100%;
 }
 
-/* line 223, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 .panels {
   position: absolute;
   overflow: scroll;
@@ -301,7 +301,7 @@ section.full {
 }
 
 @media (min-width: 992px) and (max-width: 1279px) {
-  /* line 233, ../sass/styles.scss */
+  /* line 235, ../sass/styles.scss */
   .panels {
     width: 100%;
     left: 0;
@@ -310,129 +310,129 @@ section.full {
 }
 /** Iphone **/
 @media (max-device-width: 480px) {
-  /* line 242, ../sass/styles.scss */
+  /* line 244, ../sass/styles.scss */
   h1 {
     font-size: 28px;
   }
 
-  /* line 243, ../sass/styles.scss */
+  /* line 245, ../sass/styles.scss */
   h2 {
     font-size: 22px;
   }
 
-  /* line 244, ../sass/styles.scss */
+  /* line 246, ../sass/styles.scss */
   h3 {
     font-size: 18px;
   }
 
-  /* line 245, ../sass/styles.scss */
+  /* line 247, ../sass/styles.scss */
   p {
     font-size: 14px !important;
   }
 
-  /* line 246, ../sass/styles.scss */
+  /* line 248, ../sass/styles.scss */
   .navbar-header {
     margin-left: 0 !important;
   }
 
-  /* line 247, ../sass/styles.scss */
+  /* line 249, ../sass/styles.scss */
   button {
     font-size: 14px !important;
   }
 
-  /* line 248, ../sass/styles.scss */
+  /* line 250, ../sass/styles.scss */
   .content {
     margin-top: 60%;
     text-align: center;
   }
-  /* line 251, ../sass/styles.scss */
+  /* line 253, ../sass/styles.scss */
   .content h1, .content p {
     color: #fafafa !important;
   }
 
-  /* line 255, ../sass/styles.scss */
+  /* line 257, ../sass/styles.scss */
   .panels {
     width: 100%;
     left: 0;
     margin-left: 0;
   }
 
-  /* line 260, ../sass/styles.scss */
+  /* line 262, ../sass/styles.scss */
   #features {
     padding-top: 22%;
   }
-  /* line 262, ../sass/styles.scss */
+  /* line 264, ../sass/styles.scss */
   #features .item {
     padding: 15px 0;
   }
 
-  /* line 266, ../sass/styles.scss */
+  /* line 268, ../sass/styles.scss */
   #video {
     padding-top: 40%;
   }
 
-  /* line 267, ../sass/styles.scss */
+  /* line 269, ../sass/styles.scss */
   #why {
     padding-top: 30%;
   }
 
-  /* line 268, ../sass/styles.scss */
+  /* line 270, ../sass/styles.scss */
   #team {
     padding-top: 30%;
   }
-  /* line 270, ../sass/styles.scss */
+  /* line 272, ../sass/styles.scss */
   #team .row {
     margin-bottom: 20px;
   }
-  /* line 272, ../sass/styles.scss */
+  /* line 274, ../sass/styles.scss */
   #team .row p {
     font-size: 12px;
   }
 
-  /* line 278, ../sass/styles.scss */
+  /* line 280, ../sass/styles.scss */
   #banner3 h2, #banner3 p {
     color: black !important;
   }
 
-  /* line 283, ../sass/styles.scss */
+  /* line 285, ../sass/styles.scss */
   footer .text-right {
     float: left;
   }
 }
 /** Ipad Portrait **/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  /* line 293, ../sass/styles.scss */
+  /* line 295, ../sass/styles.scss */
   .panels {
     width: 100%;
     left: 0;
     margin-left: 0;
   }
 
-  /* line 298, ../sass/styles.scss */
+  /* line 300, ../sass/styles.scss */
   .content {
     margin-top: 50%;
   }
-  /* line 300, ../sass/styles.scss */
+  /* line 302, ../sass/styles.scss */
   .content h1, .content p {
     color: #fafafa !important;
   }
 
-  /* line 304, ../sass/styles.scss */
+  /* line 306, ../sass/styles.scss */
   #features {
     padding-top: 15%;
   }
 
-  /* line 305, ../sass/styles.scss */
+  /* line 307, ../sass/styles.scss */
   #video, #why {
     padding-top: 20%;
   }
 
-  /* line 306, ../sass/styles.scss */
+  /* line 308, ../sass/styles.scss */
   #team {
     padding-top: 15%;
   }
 
-  /* line 308, ../sass/styles.scss */
+  /* line 310, ../sass/styles.scss */
   #banner3 h2, #banner3 p {
     color: black !important;
   }
