@@ -10,7 +10,7 @@ body {
 }
 hr {
   border-color: #0f4576;
-  margin: 50px 0;
+  margin: 40px 0;
 }
 p {
   font-size: 22px;
@@ -40,7 +40,7 @@ h6 {
 }
 .content {
   color: $white;
-  margin-top: 40%;
+  margin-top: 198px;
 }
 .bottom {
   margin-top: 59px;
@@ -98,14 +98,18 @@ h6 {
   background-size: cover;
   padding-top: 10%;
 }
-#features, #checklist {
-  background: $white;
-  padding-top: 10%;
-}
 #features {
+  background: $white;
+  padding-top: 77px;
   .item {
-    .col-md-8 {
+    p {
+      line-height: 26px;
+    }
+    .col-md-10 {
       padding: 30px 0;
+      .col-md-5 {
+        padding-left: 35px;
+      }
       &.borders {
         border-top: 1px #7fa1bb solid;
         border-bottom: 1px #7fa1bb solid;
@@ -157,6 +161,14 @@ h6 {
     }
   }
 }
+#video-popup {
+  .modal-dialog {
+    width: 750px;
+  }
+  .modal-header {
+    border: none;
+  }
+}
 #why {
   height: 80%;
   .btn {
@@ -168,7 +180,7 @@ h6 {
   padding-bottom: 8%;
   padding-top: 5%;
   img {
-    margin-bottom: 20px;
+    margin-bottom: 34px;
   }
   p {
     font-size: 18px;
@@ -189,6 +201,7 @@ h6 {
   background: $green;
   h2 {
     color: $white;
+    font-size: 30px;
   }
   img {
     padding: 40px 0;
@@ -229,7 +242,7 @@ section.full {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: 650px;
 }
 .navbar {
   width: 1280px;
@@ -260,8 +273,17 @@ section.full {
   h2 {font-size: 22px;}
   h3 {font-size: 18px;}
   p {font-size: 14px !important;}
-  .navbar-header {margin-left: 0 !important;}
-  button {font-size: 14px !important;}
+  .navbar {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+  }
+  .btn {
+    font-size: 14px !important;
+    img {
+      width: 30px;
+    }
+  }
   .content { 
     margin-top: 40%;
     text-align: center;
@@ -278,7 +300,7 @@ section.full {
     padding-top: 20%;
     .item {
       padding: 0;
-      .col-md-8 {
+      .col-md-10 {
         padding: 10px 15px;
       }
     }
