@@ -66,7 +66,7 @@ h6 {
 
 /* line 52, ../sass/styles.scss */
 .nav .secure {
-  padding: 18px 15px 18px 35px;
+  padding: 33px 15px 33px 35px;
   display: block;
   color: #668ead;
   text-transform: uppercase;
@@ -95,7 +95,7 @@ h6 {
 
 /* line 76, ../sass/styles.scss */
 .brand {
-  margin: 10px 30px 10px 13px;
+  margin: 25px 0 0 13px;
   display: block;
   width: 110px;
 }
