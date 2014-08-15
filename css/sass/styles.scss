@@ -13,11 +13,7 @@ body {
 section {
   height: 650px;
 }
-.navbar {
-  width: 1280px;
-  margin: 0 auto;
-}
-.main-container {
+.navbar, .main-container {
   width: 1280px;
   margin: 0 auto;
 }
@@ -257,30 +253,39 @@ footer {
 
 /** Iphone **/
 @media (max-width: 480px) {
+  body {padding-top: 50px;}
+  .navbar {min-height: 50px;}
+  .brand {
+    margin: 12px 0 0 15px;
+    width: 100px;
+  }
+  section {
+    background-color: $white !important;
+    height: auto;
+  }
+  #banner, #banner2, #banner3 {background-size: contain;}
+  .bottom {margin-top: 20px;}
+  .navbar, .main-container {width: 100%;}
   h1 {font-size: 28px;}
   h2 {font-size: 22px;}
   h3 {font-size: 18px;}
   p {font-size: 14px !important;}
-  .navbar {
-    width: 100%;
-    left: 0;
-    margin-left: 0;
-  }
   .btn {
     font-size: 14px !important;
+    margin-bottom: 20px;
     img {
       width: 30px;
     }
   }
   .content { 
-    margin-top: 40%;
+    margin-top: 200px;
     text-align: center;
-    h1, p {
-      color: $white !important;
-    }
+    color: $blue;
   }
   #features {
-    padding-top: 15%;
+    padding: 30px 0;
+    text-align: center;
+    background: darken($white, 3%) !important;
     p {
       line-height: 22px;
       margin: 0;
@@ -291,11 +296,11 @@ footer {
     .item {
       padding: 0;
       .col-md-10 {
-        padding: 10px 15px;
+        padding: 15px 0;
       }
     }
     .col-md-5 {
-      padding-left: 15px !important;
+      padding-left: 0 !important;
     }
   }
   #video-popup {
@@ -309,20 +314,36 @@ footer {
       padding: 5px;
     }
   }
-  #video {padding-top: 30%;}
-  #why {padding-top: 20%;}
+  #video {
+    padding: 10% 0; 
+    background: #f2b032 !important;
+    p {
+      margin: 20px 0 30px 0;
+    }
+  }
+  #why {
+    padding: 30px 0;
+    height: auto;
+    background: darken($white, 3%) !important;
+  }
   #team {
-    padding-top: 80px;
-    .row {
-      margin-bottom: 20px;
+    padding: 30px 0;
+    background: darken($white, 3%) !important;
+    .details {
+      padding: 0 25px;
+    }
+    .col-md-6 {
+      margin-bottom: 40px;
       p {
         font-size: 12px;
       }
     }
   }
-  #banner3 {
-    h2, p {
-      color: darken($white, 100%) !important;
+  #start {
+    background: $green !important;
+    text-align: center;
+    img {
+      margin: 0 auto;
     }
   }
   footer {
