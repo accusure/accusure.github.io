@@ -25,7 +25,7 @@ section {
 /* line 23, ../sass/styles.scss */
 hr {
   border-color: #0f4576;
-  margin: 40px 0;
+  margin: 35px 0;
 }
 
 /* line 27, ../sass/styles.scss */
@@ -105,120 +105,128 @@ h6 {
   background: #a5a524;
 }
 /* line 82, ../sass/styles.scss */
+.btn span {
+  vertical-align: middle;
+}
+/* line 85, ../sass/styles.scss */
 .btn img {
   width: 40px;
   display: inline-block;
   margin-left: 40px;
 }
 
-/* line 88, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 .brand {
   margin: 25px 0 0 13px;
   display: block;
   width: 110px;
 }
 
-/* line 93, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 #banner {
   background: url("../images/banner1.jpg") no-repeat;
   background-size: cover;
 }
-/* line 96, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 #banner h1, #banner p {
   color: #004377;
 }
 
-/* line 100, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 #banner2 {
   background: url("../images/banner2.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 104, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 #banner3 {
   background: url("../images/banner3.jpg") no-repeat;
   background-size: cover;
 }
 
-/* line 108, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 #banner4 {
   background: url("../images/sample4.jpg") no-repeat;
   background-size: cover;
   padding-top: 10%;
 }
 
-/* line 113, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 #features {
   background: #fafafa;
   padding-top: 77px;
 }
-/* line 117, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 #features .item p {
   line-height: 26px;
 }
-/* line 120, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 #features .item .col-md-10 {
   padding: 30px 0;
 }
-/* line 122, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 #features .item .col-md-10 .col-md-5 {
   padding-left: 35px;
 }
-/* line 125, ../sass/styles.scss */
+/* line 128, ../sass/styles.scss */
 #features .item .col-md-10.borders {
   border-top: 1px #7fa1bb solid;
   border-bottom: 1px #7fa1bb solid;
 }
-/* line 131, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 #features h2 {
   color: #34a3cb;
   margin-bottom: 1em;
 }
-/* line 135, ../sass/styles.scss */
+/* line 138, ../sass/styles.scss */
 #features h3 {
   margin: 0;
   color: #004377;
 }
-/* line 139, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
 #features p {
   font-size: 16px;
   color: #004377;
 }
 
-/* line 144, ../sass/styles.scss */
+/* line 147, ../sass/styles.scss */
 #why {
   background: #fafafa;
   padding-top: 92px;
   height: 480px;
 }
-/* line 148, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
+#why .col-md-10 {
+  padding: 0 32px;
+}
+/* line 154, ../sass/styles.scss */
 #why h2 {
   color: #34a3cb;
 }
-/* line 151, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 #why p {
   color: #004377;
   line-height: 2;
   font-size: 20px;
 }
-/* line 156, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 #why .btn {
   margin-top: 20%;
 }
 
-/* line 160, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 #video {
-  padding-top: 17%;
+  padding-top: 134px;
   background: #f2b032;
   color: #fafafa;
 }
-/* line 164, ../sass/styles.scss */
+/* line 170, ../sass/styles.scss */
 #video p {
   text-transform: uppercase;
   font-weight: bold;
   margin: 30px 0 60px 0;
 }
-/* line 169, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 #video .play {
   background: url("../images/play.png") no-repeat 0 0;
   width: 84px;
@@ -226,77 +234,86 @@ h6 {
   display: block;
   margin: 0 auto;
 }
-/* line 175, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 #video .play:hover {
   background-position: 0 -94px;
 }
 
-/* line 181, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 #video-popup .modal-dialog {
   width: 750px;
 }
-/* line 184, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 #video-popup .modal-header {
   border: none;
 }
 
-/* line 188, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 #team {
   background: #fafafa;
   padding-bottom: 8%;
   padding-top: 80px;
   height: auto;
 }
-/* line 193, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 #team img {
   margin-bottom: 34px;
 }
-/* line 196, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 #team p {
   font-size: 18px;
   color: #004377;
-}
-/* line 199, ../sass/styles.scss */
-#team p.description {
-  font-size: 16px;
-}
-/* line 203, ../sass/styles.scss */
-#team h6 {
-  color: #004377;
+  margin: 0;
 }
 /* line 206, ../sass/styles.scss */
-#team .position {
-  margin-bottom: 20px;
+#team p.description {
+  font-size: 16px;
+  padding: 0 32px;
+}
+/* line 210, ../sass/styles.scss */
+#team p.follow {
+  font-size: 15px;
+  margin: 21px 0 0 0;
+}
+/* line 215, ../sass/styles.scss */
+#team .name {
+  line-height: 21px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+/* line 220, ../sass/styles.scss */
+#team .details {
+  padding: 0 75px;
 }
 
-/* line 210, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 #start {
   padding: 60px 0;
   height: auto;
   background: #b1b227;
 }
-/* line 214, ../sass/styles.scss */
+/* line 228, ../sass/styles.scss */
 #start h2 {
   color: #fafafa;
   font-size: 30px;
 }
-/* line 218, ../sass/styles.scss */
+/* line 232, ../sass/styles.scss */
 #start img {
   padding: 40px 0;
   width: 62px;
 }
-/* line 222, ../sass/styles.scss */
+/* line 236, ../sass/styles.scss */
 #start:hover {
   background: #9c9d22;
 }
 
-/* line 226, ../sass/styles.scss */
+/* line 240, ../sass/styles.scss */
 footer {
   background: #004377;
   color: #fafafa;
   padding: 20px 0;
 }
-/* line 230, ../sass/styles.scss */
+/* line 244, ../sass/styles.scss */
 footer p {
   margin: 0;
   font-size: 16px;
@@ -304,178 +321,177 @@ footer p {
   font-weight: 300;
   letter-spacing: 0.1em;
 }
-/* line 237, ../sass/styles.scss */
+/* line 251, ../sass/styles.scss */
 footer .secure {
   color: #668ead;
-  padding: 5px 0;
   font-size: 16px;
 }
 
 /** Iphone **/
 @media (max-width: 480px) {
-  /* line 246, ../sass/styles.scss */
+  /* line 259, ../sass/styles.scss */
   h1 {
     font-size: 28px;
   }
 
-  /* line 247, ../sass/styles.scss */
+  /* line 260, ../sass/styles.scss */
   h2 {
     font-size: 22px;
   }
 
-  /* line 248, ../sass/styles.scss */
+  /* line 261, ../sass/styles.scss */
   h3 {
     font-size: 18px;
   }
 
-  /* line 249, ../sass/styles.scss */
+  /* line 262, ../sass/styles.scss */
   p {
     font-size: 14px !important;
   }
 
-  /* line 250, ../sass/styles.scss */
+  /* line 263, ../sass/styles.scss */
   .navbar {
     width: 100%;
     left: 0;
     margin-left: 0;
   }
 
-  /* line 255, ../sass/styles.scss */
+  /* line 268, ../sass/styles.scss */
   .btn {
     font-size: 14px !important;
   }
-  /* line 257, ../sass/styles.scss */
+  /* line 270, ../sass/styles.scss */
   .btn img {
     width: 30px;
   }
 
-  /* line 261, ../sass/styles.scss */
+  /* line 274, ../sass/styles.scss */
   .content {
     margin-top: 40%;
     text-align: center;
   }
-  /* line 264, ../sass/styles.scss */
+  /* line 277, ../sass/styles.scss */
   .content h1, .content p {
     color: #fafafa !important;
   }
 
-  /* line 268, ../sass/styles.scss */
+  /* line 281, ../sass/styles.scss */
   #features {
     padding-top: 15%;
   }
-  /* line 270, ../sass/styles.scss */
+  /* line 283, ../sass/styles.scss */
   #features p {
     line-height: 22px;
     margin: 0;
   }
-  /* line 274, ../sass/styles.scss */
+  /* line 287, ../sass/styles.scss */
   #features h3 {
     margin-bottom: 10px;
   }
-  /* line 277, ../sass/styles.scss */
+  /* line 290, ../sass/styles.scss */
   #features .item {
     padding: 0;
   }
-  /* line 279, ../sass/styles.scss */
+  /* line 292, ../sass/styles.scss */
   #features .item .col-md-10 {
     padding: 10px 15px;
   }
-  /* line 283, ../sass/styles.scss */
+  /* line 296, ../sass/styles.scss */
   #features .col-md-5 {
     padding-left: 15px !important;
   }
 
-  /* line 288, ../sass/styles.scss */
+  /* line 301, ../sass/styles.scss */
   #video-popup .modal-dialog {
     width: 310px;
   }
-  /* line 290, ../sass/styles.scss */
+  /* line 303, ../sass/styles.scss */
   #video-popup .modal-dialog video {
     width: 100%;
   }
-  /* line 294, ../sass/styles.scss */
+  /* line 307, ../sass/styles.scss */
   #video-popup .modal-body {
     padding: 5px;
   }
 
-  /* line 298, ../sass/styles.scss */
+  /* line 311, ../sass/styles.scss */
   #video {
     padding-top: 30%;
   }
 
-  /* line 299, ../sass/styles.scss */
+  /* line 312, ../sass/styles.scss */
   #why {
     padding-top: 20%;
   }
 
-  /* line 300, ../sass/styles.scss */
+  /* line 313, ../sass/styles.scss */
   #team {
     padding-top: 80px;
   }
-  /* line 302, ../sass/styles.scss */
+  /* line 315, ../sass/styles.scss */
   #team .row {
     margin-bottom: 20px;
   }
-  /* line 304, ../sass/styles.scss */
+  /* line 317, ../sass/styles.scss */
   #team .row p {
     font-size: 12px;
   }
 
-  /* line 310, ../sass/styles.scss */
+  /* line 323, ../sass/styles.scss */
   #banner3 h2, #banner3 p {
     color: black !important;
   }
 
-  /* line 315, ../sass/styles.scss */
+  /* line 328, ../sass/styles.scss */
   footer .text-right {
     float: left;
   }
 }
 /** Ipad Portrait **/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  /* line 325, ../sass/styles.scss */
+  /* line 338, ../sass/styles.scss */
   .content {
     margin-top: 30%;
   }
-  /* line 327, ../sass/styles.scss */
+  /* line 340, ../sass/styles.scss */
   .content h1, .content p {
     color: #fafafa !important;
   }
 
-  /* line 331, ../sass/styles.scss */
+  /* line 344, ../sass/styles.scss */
   .btn {
     font-size: 14px !important;
   }
-  /* line 333, ../sass/styles.scss */
+  /* line 346, ../sass/styles.scss */
   .btn img {
     width: 30px;
   }
 
-  /* line 337, ../sass/styles.scss */
+  /* line 350, ../sass/styles.scss */
   .nav > li > a {
     padding: 15px;
   }
 
-  /* line 340, ../sass/styles.scss */
+  /* line 353, ../sass/styles.scss */
   #features {
     padding-top: 12%;
   }
-  /* line 341, ../sass/styles.scss */
+  /* line 354, ../sass/styles.scss */
   #features h2 {
     margin-bottom: 10px;
   }
 
-  /* line 346, ../sass/styles.scss */
+  /* line 359, ../sass/styles.scss */
   #video, #why {
     padding-top: 10%;
   }
 
-  /* line 347, ../sass/styles.scss */
+  /* line 360, ../sass/styles.scss */
   #team {
     padding-top: 5%;
   }
 
-  /* line 349, ../sass/styles.scss */
+  /* line 362, ../sass/styles.scss */
   #banner3 h2, #banner3 p {
     color: black !important;
   }
