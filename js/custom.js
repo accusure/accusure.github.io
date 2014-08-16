@@ -15,9 +15,10 @@ $(document).ready(function() {
   });
   
   //Close Nav on mobile click
-  $('.nav a').on('click', function(){
-    $('.btn-navbar').click(); //bootstrap 2.x
-    $('.navbar-toggle').click() //bootstrap 3.x by Richard
+  $('.nav a').on('click', function(){ 
+    if($('.navbar-toggle').css('display') !='none'){
+      $(".navbar-toggle").trigger( "click" );
+    }
   });
   
   //Close video when modal is closed
