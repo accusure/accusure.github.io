@@ -21,6 +21,11 @@ hr {
   border-color: #0f4576;
   margin: 35px 0;
 }
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
 p {
   font-size: 22px;
   font-family: 'Oxygen', sans-serif;
@@ -243,6 +248,12 @@ footer {
     color: #668ead;
     font-size: 16px;
   }
+  a {
+    color: $white;
+    &:hover {
+      color: $light-blue;
+    }
+  }
 }
 
 /** Iphone **/
@@ -374,8 +385,8 @@ footer {
     }
   }
   footer {
-    .text-right {
-      float: left;
+    .text-right, .text-center {
+      text-align: left;
     }
   }
 }
@@ -422,5 +433,13 @@ and (orientation : portrait) {
   }
   #start {
     padding: 30px 0;
+  }
+  .nav>li>a {
+    padding: 30px 20px;
+  }
+  footer {
+    .text-right, .text-center {
+      text-align: left;
+    }
   }
 }
