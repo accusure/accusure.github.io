@@ -315,12 +315,9 @@ footer {
   #video-popup {
     .modal-dialog {
       width: 310px;
-      video {
-        width: 100%;
-      }
     }
     .modal-body {
-      padding: 5px;
+      padding: 0;
     }
   }
   #video {
@@ -378,7 +375,7 @@ footer {
     img {
       margin: 0 auto;
       width: 50px;
-      padding: 60px 0 0 0;
+      padding: 30px 0 0 0;
     }
     h2 {
       margin: 0;

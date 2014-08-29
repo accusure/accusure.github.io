@@ -23,6 +23,7 @@ $(document).ready(function() {
   
   //Close video when modal is closed
   $('body').on('hidden.bs.modal', '.modal', function () {
-  $('video').trigger('pause');
+    $('iframe#accusure-vid').attr('src',''); 
+        $('iframe#accusure-vid').attr('src','http://player.vimeo.com/video/104705294');
   });
 });
