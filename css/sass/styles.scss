@@ -315,6 +315,9 @@ footer {
   #video-popup {
     .modal-dialog {
       width: 310px;
+      #accusure-vid {
+        height: 300px !important;
+      }
     }
     .modal-body {
       padding: 0;
