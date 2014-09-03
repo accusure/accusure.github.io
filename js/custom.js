@@ -4,7 +4,9 @@ $(document).ready(function() {
     e.preventDefault();
   
     var target = $(this).attr("href"); //Get the target
-    var scrollToPosition = $(target).offset().top - 80;
+    var navHeight = $('.navbar-header').height();
+    console.log(navHeight);
+    var scrollToPosition = $(target).offset().top - navHeight;
   
     $('html').animate({ 'scrollTop': scrollToPosition }, 500, function(){
       window.location.hash = "" + target;
