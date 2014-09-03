@@ -5,14 +5,13 @@ $(document).ready(function() {
   
     var target = $(this).attr("href"); //Get the target
     var navHeight = $('.navbar-header').height();
-    console.log(navHeight);
     var scrollToPosition = $(target).offset().top - navHeight;
   
-    $('html').animate({ 'scrollTop': scrollToPosition }, 500, function(){
+    $('html, body').animate({ 'scrollTop': scrollToPosition }, 500, function(){
       window.location.hash = "" + target;
       // This hash change will jump the page to the top of the div with the same id
       // so we need to force the page to back to the end of the animation
-      $('html').animate({ 'scrollTop': scrollToPosition }, 0);
+      $('html, body').animate({ 'scrollTop': scrollToPosition }, 0);
     });
   });
   
