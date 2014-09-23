@@ -216,12 +216,6 @@ h3 {
   .details {
     padding: 0 75px;
   }
-  .social {
-    margin-top: 80px;
-    h2 {
-      color: $light-blue;
-    }
-  }
 }
 #start {
   padding: 60px 0;
@@ -376,9 +370,6 @@ footer {
         margin-bottom: 25px;
       }
     }
-    .social {
-      margin-top: 5px;
-    }
   }
   #start {
     background: $green !important;
@@ -436,9 +427,6 @@ and (orientation : portrait) {
     padding-top: 30px;
     .details {
       padding: 0 25px;
-    }
-    .social {
-      margin-top: 30px;
     }
   }
   #banner3 {
