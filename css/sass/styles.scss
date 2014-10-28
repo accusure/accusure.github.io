@@ -416,9 +416,6 @@ and (min-width : 768px)
 and (max-width : 1024px) {
   .navbar, .main-container {
     width: 100%;
-    .container {
-      margin: 0 !important;
-    }
   }
   .content {
     margin-top: 30%;

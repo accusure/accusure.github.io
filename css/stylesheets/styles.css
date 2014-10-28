@@ -571,117 +571,113 @@ footer a:hover {
   .navbar, .main-container {
     width: 100%;
   }
-  /* line 419, ../sass/styles.scss */
-  .navbar .container, .main-container .container {
-    margin: 0 !important;
-  }
 
-  /* line 423, ../sass/styles.scss */
+  /* line 420, ../sass/styles.scss */
   .content {
     margin-top: 30%;
   }
 
-  /* line 426, ../sass/styles.scss */
+  /* line 423, ../sass/styles.scss */
   h1 {
     font-size: 36px;
   }
 
-  /* line 427, ../sass/styles.scss */
+  /* line 424, ../sass/styles.scss */
   h2 {
     font-size: 28px;
   }
 
-  /* line 428, ../sass/styles.scss */
+  /* line 425, ../sass/styles.scss */
   h3 {
     font-size: 18px;
   }
 
-  /* line 429, ../sass/styles.scss */
+  /* line 426, ../sass/styles.scss */
   p {
     font-size: 20px;
   }
 
-  /* line 430, ../sass/styles.scss */
+  /* line 427, ../sass/styles.scss */
   .btn {
     font-size: 14px !important;
   }
-  /* line 432, ../sass/styles.scss */
+  /* line 429, ../sass/styles.scss */
   .btn img {
     width: 30px;
   }
 
-  /* line 436, ../sass/styles.scss */
+  /* line 433, ../sass/styles.scss */
   #features {
     padding: 50px 0;
   }
-  /* line 438, ../sass/styles.scss */
+  /* line 435, ../sass/styles.scss */
   #features h2 {
     margin-bottom: 10px;
   }
-  /* line 441, ../sass/styles.scss */
+  /* line 438, ../sass/styles.scss */
   #features .col-md-7 {
     padding-right: 0;
   }
 
-  /* line 445, ../sass/styles.scss */
+  /* line 442, ../sass/styles.scss */
   #why {
     padding: 50px 0;
   }
 
-  /* line 446, ../sass/styles.scss */
+  /* line 443, ../sass/styles.scss */
   #team {
     padding-top: 30px;
   }
-  /* line 448, ../sass/styles.scss */
+  /* line 445, ../sass/styles.scss */
   #team .details {
     padding: 0 25px;
   }
-  /* line 451, ../sass/styles.scss */
+  /* line 448, ../sass/styles.scss */
   #team .social {
     margin-top: 50px;
   }
 
-  /* line 456, ../sass/styles.scss */
+  /* line 453, ../sass/styles.scss */
   #banner3 h1, #banner3 p {
     color: black !important;
   }
 
-  /* line 460, ../sass/styles.scss */
+  /* line 457, ../sass/styles.scss */
   #start {
     padding: 30px 0;
   }
 
-  /* line 463, ../sass/styles.scss */
+  /* line 460, ../sass/styles.scss */
   .nav > li > a {
     padding: 30px 15px;
   }
 
-  /* line 467, ../sass/styles.scss */
+  /* line 464, ../sass/styles.scss */
   footer .text-right, footer .text-center {
     text-align: left;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 477, ../sass/styles.scss */
+  /* line 474, ../sass/styles.scss */
   #banner2 h1 {
     padding-right: 35px;
   }
-  /* line 480, ../sass/styles.scss */
+  /* line 477, ../sass/styles.scss */
   #banner2 p {
     font-size: 19px;
   }
 
-  /* line 485, ../sass/styles.scss */
+  /* line 482, ../sass/styles.scss */
   #banner3 h1, #banner3 p {
     color: #fafafa !important;
   }
 
-  /* line 490, ../sass/styles.scss */
+  /* line 487, ../sass/styles.scss */
   #video .col-md-8 {
     padding: 0 80px;
   }
 
-  /* line 495, ../sass/styles.scss */
+  /* line 492, ../sass/styles.scss */
   #team p.description {
     padding: 0 30px;
   }
