@@ -661,3 +661,28 @@ footer a:hover {
     text-align: left;
   }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 477, ../sass/styles.scss */
+  #banner2 h1 {
+    padding-right: 35px;
+  }
+  /* line 480, ../sass/styles.scss */
+  #banner2 p {
+    font-size: 19px;
+  }
+
+  /* line 485, ../sass/styles.scss */
+  #banner3 h1, #banner3 p {
+    color: #fafafa !important;
+  }
+
+  /* line 490, ../sass/styles.scss */
+  #video .col-md-8 {
+    padding: 0 80px;
+  }
+
+  /* line 495, ../sass/styles.scss */
+  #team p.description {
+    padding: 0 30px;
+  }
+}
