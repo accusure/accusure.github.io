@@ -565,98 +565,98 @@ footer a:hover {
     font-size: 13px !important;
   }
 }
-/** Ipad Portrait **/
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  /* line 418, ../sass/styles.scss */
+/** Ipad **/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* line 417, ../sass/styles.scss */
   .navbar, .main-container {
     width: 100%;
   }
-  /* line 420, ../sass/styles.scss */
+  /* line 419, ../sass/styles.scss */
   .navbar .container, .main-container .container {
     margin: 0 !important;
   }
 
-  /* line 424, ../sass/styles.scss */
+  /* line 423, ../sass/styles.scss */
   .content {
     margin-top: 30%;
   }
 
-  /* line 427, ../sass/styles.scss */
+  /* line 426, ../sass/styles.scss */
   h1 {
     font-size: 36px;
   }
 
-  /* line 428, ../sass/styles.scss */
+  /* line 427, ../sass/styles.scss */
   h2 {
     font-size: 28px;
   }
 
-  /* line 429, ../sass/styles.scss */
+  /* line 428, ../sass/styles.scss */
   h3 {
     font-size: 18px;
   }
 
-  /* line 430, ../sass/styles.scss */
+  /* line 429, ../sass/styles.scss */
   p {
     font-size: 20px;
   }
 
-  /* line 431, ../sass/styles.scss */
+  /* line 430, ../sass/styles.scss */
   .btn {
     font-size: 14px !important;
   }
-  /* line 433, ../sass/styles.scss */
+  /* line 432, ../sass/styles.scss */
   .btn img {
     width: 30px;
   }
 
-  /* line 437, ../sass/styles.scss */
+  /* line 436, ../sass/styles.scss */
   #features {
     padding: 50px 0;
   }
-  /* line 439, ../sass/styles.scss */
+  /* line 438, ../sass/styles.scss */
   #features h2 {
     margin-bottom: 10px;
   }
-  /* line 442, ../sass/styles.scss */
+  /* line 441, ../sass/styles.scss */
   #features .col-md-7 {
     padding-right: 0;
   }
 
-  /* line 446, ../sass/styles.scss */
+  /* line 445, ../sass/styles.scss */
   #why {
     padding: 50px 0;
   }
 
-  /* line 447, ../sass/styles.scss */
+  /* line 446, ../sass/styles.scss */
   #team {
     padding-top: 30px;
   }
-  /* line 449, ../sass/styles.scss */
+  /* line 448, ../sass/styles.scss */
   #team .details {
     padding: 0 25px;
   }
-  /* line 452, ../sass/styles.scss */
+  /* line 451, ../sass/styles.scss */
   #team .social {
     margin-top: 50px;
   }
 
-  /* line 457, ../sass/styles.scss */
+  /* line 456, ../sass/styles.scss */
   #banner3 h1, #banner3 p {
     color: black !important;
   }
 
-  /* line 461, ../sass/styles.scss */
+  /* line 460, ../sass/styles.scss */
   #start {
     padding: 30px 0;
   }
 
-  /* line 464, ../sass/styles.scss */
+  /* line 463, ../sass/styles.scss */
   .nav > li > a {
     padding: 30px 15px;
   }
 
-  /* line 468, ../sass/styles.scss */
+  /* line 467, ../sass/styles.scss */
   footer .text-right, footer .text-center {
     text-align: left;
   }
