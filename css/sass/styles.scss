@@ -277,6 +277,13 @@ footer {
     }
   }
 }
+#fine-print {
+  background: darken($white, 80%);
+  small {
+    color: darken($white, 50%);
+    font-size: 10px;
+  }
+}
 
 /** Iphone **/
 @media (max-width: 480px) {
@@ -437,6 +444,10 @@ footer {
     }
   }
 }
+#fine-print {
+  padding: 10px 0;
+}
+
 /** Ipad **/
 @media only screen 
 and (min-width : 768px) 
