@@ -1,0 +1,33 @@
+@import 'mixins';
+
+header {
+  background: $dark-blue;
+  color: $white;
+  font-weight: 300;
+  padding: 25px;
+  .highlight {
+    color: $yellow;
+    text-transform: uppercase;
+  }
+  .secure {
+    text-transform: uppercase;
+  }
+}
+.brand {
+  img {
+    width: 124px;
+    margin-right: 20px;
+  }
+  .subtext {
+    border-left: 1px $white solid;
+    font-size: 19px;
+    padding-left: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    height: 19px;
+  }
+}
+#banner1 {
+  @include biz-banner('../images/agents/agent-banner1.jpg');
+  margin-top: 160px;
+}

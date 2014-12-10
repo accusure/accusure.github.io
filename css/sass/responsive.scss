@@ -1,0 +1,261 @@
+@import 'mixins';
+
+/** Iphone **/
+@media (max-width: 480px) {
+  body {padding-top: 50px;}
+  .navbar {min-height: 50px;}
+  .brand {
+    margin: 12px 0 0 15px;
+    width: 100px;
+  }
+  section {
+    background-color: $white !important;
+    height: auto;
+  }
+  #banner, #banner2, #banner3 {background-size: contain;}
+  .bottom {
+    margin-top: 27px;
+    margin-bottom: 10px;
+  }
+  #banner {
+    .starburst {
+      bottom: 0;
+      top: 5px;
+      right: 20px;
+      width: 150px;
+    }
+  }
+  .navbar, .main-container {width: 100%;}
+  h1 {font-size: 28px;}
+  h2 {font-size: 22px;}
+  h3 {font-size: 18px;}
+  hr {margin: 27px 0;}
+  p {font-size: 14px !important;}
+  .btn {
+    font-size: 14px !important;
+    margin-bottom: 20px;
+    img {
+      width: 30px;
+    }
+  }
+  .content { 
+    margin-top: 194px;
+    text-align: center;
+    color: $blue;
+  }
+  #features {
+    padding: 24px 0 0 0;
+    text-align: center;
+    background: darken($white, 3%) !important;
+    p {
+      line-height: 22px;
+      margin: 0;
+    }
+    h2 {
+      margin: 0;
+    }
+    h3 {
+      margin-bottom: 10px;
+    }
+    .item {
+      padding: 26px 0;
+    }
+    .col-md-5 {
+      padding-left: 0 !important;
+    }
+    .col-md-7 {
+      padding: 0;
+    }
+  }
+  #video-popup {
+    .modal-dialog {
+      width: 310px;
+      #accusure-vid {
+        height: 300px !important;
+      }
+    }
+    .modal-body {
+      padding: 0;
+    }
+  }
+  #video {
+    padding: 25px 0 30px 0; 
+    background: #f2b032 !important;
+    h1 {
+      margin: 0;
+    }
+    p {
+      margin: 14px 0 16px 0;
+    }
+    .play {
+      width: 50px;
+      height: 50px;
+      background-size: 100%;
+      &:hover {
+        background-position: 0 -55px;
+      }
+    }
+  }
+  #why {
+    padding: 25px 0 30px 0;
+    height: auto;
+    background: darken($white, 3%) !important;
+    h2 {
+      margin: 0;
+    }
+    b {
+      font-size: 16px;
+    }
+  }
+  #team {
+    padding: 30px 0 50px 0;
+    background: darken($white, 3%) !important;
+    img {
+      margin-bottom: 14px;
+    }
+    .follow {
+      margin-top: 11px !important;
+    }
+    .details {
+      padding: 0 25px;
+    }
+    .col-md-6 {
+      margin-bottom: 55px;
+      p {
+        font-size: 12px;
+      }
+      &:nth-child(2) {
+        margin-bottom: 25px;
+      }
+    }
+    .social {
+      margin-top: 5px;
+    }
+  }
+  #start {
+    background: $green !important;
+    text-align: center;
+    height: 260px;
+    img {
+      margin: 0 auto !important;
+      width: 50px;
+      padding: 30px 0 0 0;
+    }
+    h2 {
+      margin: 0;
+    }
+    .starburst {
+      width: 150px;
+      top: -130px;
+      right: 82px;
+    }
+  }
+  footer {
+    .text-right, .text-center {
+      text-align: left;
+    }
+    p {
+      font-size: 13px !important;
+    }
+  }
+}
+#fine-print {
+  padding: 10px 0;
+}
+
+/** Ipad **/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+  .navbar, .main-container {
+    width: 100%;
+  }
+  .content {
+    margin-top: 30%;
+  }
+  h1 {font-size: 36px;}
+  h2 {font-size: 28px;}
+  h3 {font-size: 18px;}
+  p {font-size: 20px;}
+  .btn {
+    font-size: 14px !important;
+    img {
+      width: 30px;
+    }
+  }
+  #banner {
+    .starburst {
+      width: 150px;
+      right: 150px;
+    }
+  }
+  #features {
+    padding: 50px 0;
+    h2 {
+      margin-bottom: 10px;
+    }
+    .col-md-7 {
+      padding-right: 0;
+    }
+  }
+  #why {padding: 50px 0;}
+  #team {
+    padding-top: 30px;
+    .details {
+      padding: 0 25px;
+    }
+    .social {
+      margin-top: 50px;
+    }
+  }
+  #banner3 {
+    h1, p {
+      color: darken($white, 100%) !important;
+    }
+  }
+  #start {
+    padding: 30px 0;
+    .starburst {
+      width: 150px;
+    }
+  }
+  .nav>li>a {
+    padding: 30px 15px;
+  }
+  footer {
+    .text-right, .text-center {
+      text-align: left;
+    }
+  }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  #banner {
+    .starburst {
+      bottom: 130px;
+      right: 30px;
+    }
+  }
+  #banner2 {
+    p {
+      font-size: 19px;
+    }
+  }
+  #banner3 {
+    h1, p {
+      color: $white !important;
+    }
+  }
+  #video {
+    .col-md-8 {
+      padding: 0 80px;
+    }
+  }
+  #team {
+    p.description {
+      padding: 0 30px;
+    }
+  }
+}

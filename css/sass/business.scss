@@ -1,0 +1,171 @@
+@import 'mixins';
+body {
+  position: relative;
+  padding-top: 80px;
+}
+.brand {
+  margin: 25px 0 29px 13px;
+  display: block;
+  img {
+    width: 110px;
+  }
+}
+#banner {
+  @include biz-banner('../images/business/biz-banner1.jpg');
+  position: relative;
+  h1, p { 
+    color: $blue;
+  }
+  .starburst {
+    width: 180px;
+    position: absolute; 
+    right: 40px;
+    bottom: 30px;
+  }
+}
+#banner2 {
+  @include biz-banner('../images/business/biz-banner2.jpg');
+}
+#banner3 {
+  @include biz-banner('../images/business/biz-banner3.jpg');
+}
+#banner4 {
+  @include biz-banner('../images/sample4.jpg');
+  padding-top: 10%;
+}
+#features {
+  background: $white;
+  padding-top: 77px;
+  hr {
+    border-color: #7fa1bb;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .item {
+    padding: 30px 0;
+    p {
+      line-height: 26px;
+    }
+    .col-md-5 {
+      padding-left: 35px;
+    }
+  }
+  h2 {
+    color: $light-blue;
+    margin-bottom: 1em;
+  }
+  h3 {
+    margin: 0;
+    color: $blue;
+  }
+  p {
+    font-size: 16px;
+    color: $blue;
+  }
+}
+#why {
+  background: $white;
+  padding-top: 56px;
+  .col-md-10 {
+    padding: 0 32px;
+  }
+  height: 420px;
+  h2 {
+    color: $light-blue;
+  }
+  p {
+    color: $blue;
+    line-height: 2;
+    font-size: 20px;
+  }
+  .btn {
+    margin-top: 20%;
+  }
+}
+#video {
+  padding-top: 134px;
+  background: $yellow;
+  color: $white;
+  p {
+    @include fatcaps;
+    letter-spacing: 2px;
+    margin: 30px 0 60px 0;
+  }
+  .play {
+    background: url('../images/play.png') no-repeat 0 0;
+    width: 84px;
+    height: 84px;
+    display: block;
+    margin: 0 auto;
+    &:hover {
+      background-position: 0 -94px;
+    }
+  }
+}
+#video-popup {
+  .modal-dialog {
+    width: 750px;
+  }
+  .modal-header {
+    border: none;
+  }
+}
+#team {
+  background: $white;
+  padding-bottom: 8%;
+  padding-top: 40px;
+  height: auto;
+  img {
+    margin-bottom: 34px;
+  }
+  p {
+    font-size: 18px;
+    color: $blue;
+    margin: 0;
+  }
+  .description {
+    font-size: 16px;
+    padding: 0 32px;
+  }
+  .follow {
+    font-size: 15px;
+    margin: 21px 0 0 0;
+  }
+  .name {
+    line-height: 21px;
+    @include fatcaps;
+  }
+  .details {
+    padding: 0 75px;
+  }
+  .social {
+    margin-top: 100px;
+    h3 {
+      @include roboto300;
+      color: $light-blue;
+    }
+  }
+}
+#start {
+  padding: 60px 0;
+  height: auto;
+  background: $green;
+  position: relative;
+  h2 {
+    color: $white;
+  }
+  .img-responsive {
+    padding: 40px 0;
+    width: 62px;
+    margin-left: -50px;
+  }
+  &:hover {
+    background: darken($green, 5%);
+  }
+  .starburst {
+    width: 180px;
+    position: absolute;
+    right: 40px;
+    top: -90px;
+  }
+}
