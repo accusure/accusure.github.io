@@ -31,3 +31,19 @@ header {
   @include biz-banner('../images/agents/agent-banner1.jpg');
   margin-top: 160px;
 }
+#how, #why, #agents {
+  background: $white;
+  padding: 30px;
+}
+#banner2 {
+  @include biz-banner('../images/agents/agent-banner2.jpg');
+}
+#why {
+  text-align: center;
+  img {
+    width: 65px;
+  }
+}
+#rates {
+  @include biz-banner('../images/agents/agent-banner3.jpg');
+}

@@ -5,7 +5,7 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 section {
-  height: 648px;
+  min-height: 648px;
 }
 .navbar, .main-container {
   width: 1280px;
@@ -28,6 +28,7 @@ h1 {
 }
 h2 {
   font-size: 38px;
+  color: $light-blue;
 }
 h3 {
   font-size: 24px;
