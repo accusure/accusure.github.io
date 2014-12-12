@@ -10,11 +10,14 @@ body {
     width: 110px;
   }
 }
-section {
-  height: 648px;
+.btn {
+  background: $green;
+  &:hover {
+    background: darken($green, 3%);
+  }
 }
 #banner {
-  @include biz-banner('../images/business/biz-banner1.jpg');
+  @include banner('../images/business/biz-banner1.jpg');
   position: relative;
   h1, p { 
     color: $blue;
@@ -27,13 +30,13 @@ section {
   }
 }
 #banner2 {
-  @include biz-banner('../images/business/biz-banner2.jpg');
+  @include banner('../images/business/biz-banner2.jpg');
 }
 #banner3 {
-  @include biz-banner('../images/business/biz-banner3.jpg');
+  @include banner('../images/business/biz-banner3.jpg');
 }
 #banner4 {
-  @include biz-banner('../images/sample4.jpg');
+  @include banner('../images/sample4.jpg');
   padding-top: 10%;
 }
 #features {

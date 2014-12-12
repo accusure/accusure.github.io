@@ -7,6 +7,38 @@ $tan: #f2e7db;
 $yellow: #f2b032;
 $yellow-hover: #e29b11;
 
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?gs6d94');
+  src:url('../fonts/icomoon.eot?#iefixgs6d94') format('embedded-opentype'),
+      url('../fonts/icomoon.woff?gs6d94') format('woff'),
+      url('../fonts/icomoon.ttf?gs6d94') format('truetype'),
+      url('../fonts/icomoon.svg?gs6d94#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow:before {
+  content: "\e600";
+}
+.icon-twitter:before {
+  content: "\e601";
+}
+.icon-fb:before {
+  content: "\e602";
+}
+
 @mixin roboto300 {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
@@ -15,7 +47,8 @@ $yellow-hover: #e29b11;
   text-transform: uppercase;
   font-weight: 700;
 }
-@mixin biz-banner($img-url) {
+@mixin banner($img-url) {
   background: url($img-url) no-repeat;
   background-size: cover;
+  height: 650px;
 }

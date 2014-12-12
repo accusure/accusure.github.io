@@ -53,15 +53,15 @@ h3 {
 .btn {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
-  background: $green;
-  color: darken($white, 5%);
+  color: $white;
+  text-align: left;
   border-radius: 0 !important;
-  &:hover {
-    color: $white !important;
-    background: darken($green, 3%);
-  }
   span {
     vertical-align: middle;
+  }
+  .icon-arrow {
+    font-size: 40px;
+    float: right;
   }
   img {
     width: 40px;
@@ -87,6 +87,12 @@ footer {
     &:hover {
       color: $light-blue;
     }
+  }
+  .icon-twitter, .icon-fb {
+    font-size: 43px;
+  }
+  li {
+    vertical-align: middle;
   }
 }
 #fine-print {
