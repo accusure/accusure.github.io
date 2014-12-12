@@ -10,6 +10,9 @@ body {
     width: 110px;
   }
 }
+section {
+  height: 648px;
+}
 #banner {
   @include biz-banner('../images/business/biz-banner1.jpg');
   position: relative;
@@ -146,18 +149,8 @@ body {
   }
 }
 #start {
-  padding: 60px 0;
-  height: auto;
   background: $green;
   position: relative;
-  h2 {
-    color: $white;
-  }
-  .img-responsive {
-    padding: 40px 0;
-    width: 62px;
-    margin-left: -50px;
-  }
   &:hover {
     background: darken($green, 5%);
   }

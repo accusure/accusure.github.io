@@ -4,9 +4,6 @@ body {
   background: $tan;
   font-family: 'Oxygen', sans-serif;
 }
-section {
-  min-height: 648px;
-}
 .navbar, .main-container {
   width: 1280px;
   margin: 0 auto;
@@ -97,5 +94,17 @@ footer {
   small {
     color: darken($white, 50%);
     font-size: 10px;
+  }
+}
+#start {
+  padding: 60px 0;
+  height: auto;
+  h2 {
+    color: $white;
+  }
+  .img-responsive {
+    padding: 40px 0;
+    width: 62px;
+    margin-left: -50px;
   }
 }

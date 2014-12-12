@@ -47,3 +47,9 @@ header {
 #rates {
   @include biz-banner('../images/agents/agent-banner3.jpg');
 }
+#start {
+  background: $yellow;
+  &:hover {
+    background: $yellow-hover;
+  }
+}
