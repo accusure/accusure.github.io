@@ -16,6 +16,16 @@ body {
     background: darken($green, 3%);
   }
 }
+section {
+  height: 650px;
+}
+.content {
+  color: $white;
+  margin-top: 183px;
+}
+.bottom {
+  margin-top: 59px;
+}
 #banner {
   @include banner('../images/business/biz-banner1.jpg');
   position: relative;

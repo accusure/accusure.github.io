@@ -1,26 +1,37 @@
 @import 'mixins';
 
+.navbar-nav {
+  margin-left: 75px;
+}
 header {
   background: $dark-blue;
   color: $white;
-  font-weight: 300;
-  padding: 25px;
+  padding: 25px 0;
+  ul {
+    margin-top: 7px;
+    margin-bottom: 0;
+  }
   .highlight {
-    color: $yellow;
+    color: #c5c52c;
     text-transform: uppercase;
+    font-weight: 700;
   }
   .secure {
     text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 16px;
   }
 }
 .brand {
   img {
     width: 124px;
     margin-right: 20px;
+    margin-left: 26px;
   }
   .subtext {
     border-left: 1px $white solid;
     font-size: 19px;
+    font-weight: 300;
     padding-left: 20px;
     vertical-align: middle;
     display: table-cell;
@@ -34,9 +45,20 @@ header {
     background: $yellow-hover;
   }
 }
+.content {
+  margin-top: 138px;
+  color: $white;
+}
+.bottom {
+  margin-top: 68px;
+}
 #banner1 {
   @include banner('../images/agents/agent-banner1.jpg');
   margin-top: 160px;
+  color: $white;
+  h1 {
+    margin-bottom: 27px;
+  }
 }
 #how, #why, #agents {
   background: $white;
