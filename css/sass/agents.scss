@@ -23,8 +23,8 @@ header {
   }
 }
 .brand {
+  padding-top: 3px;
   img {
-    width: 124px;
     margin-right: 20px;
     margin-left: 26px;
   }
@@ -66,6 +66,42 @@ header {
 }
 #banner2 {
   @include banner('../images/agents/agent-banner2.jpg');
+  color: $blue;
+  padding-top: 100px;
+  height: 750px;
+  h1 {
+    margin-top: 0;
+    margin-bottom: 33px;
+  }
+  dd {
+    font-size: 22px;
+    line-height: 1.273;
+    margin-bottom: 37px;
+  }
+  .btn {
+    margin-top: 35px;
+  }
+}
+#how {
+  height: 650px;
+  padding-top: 94px;
+  padding-bottom: 60px;
+  color: $blue;
+  h2, h3 {
+    margin: 0;
+  }
+  p {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.875;
+    padding: 0 30px;
+  }
+  img {
+    padding: 70px 54px 45px 54px;
+  }
+  .mid {
+    margin-top: 22px;
+  }
 }
 #why {
   text-align: center;

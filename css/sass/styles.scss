@@ -28,7 +28,7 @@ h2 {
   color: $light-blue;
 }
 h3 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
 }
 .fa-lock {
@@ -60,6 +60,11 @@ h3 {
     width: 40px;
     display: inline-block;
     margin-left: 40px;
+  }
+}
+.brand {
+  img {
+    width: 110px;
   }
 }
 footer {
