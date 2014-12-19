@@ -4,7 +4,7 @@ $(document).ready(function() {
     e.preventDefault();
   
     var target = $(this).attr("href"); //Get the target
-    var navHeight = $('.navbar-header').height();
+    var navHeight = $('.navbar').height();
     var scrollToPosition = $(target).offset().top - navHeight;
   
     $('html, body').animate({ 'scrollTop': scrollToPosition }, 500, function(){
