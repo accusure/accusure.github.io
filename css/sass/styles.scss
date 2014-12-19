@@ -48,6 +48,7 @@ h3 {
   font-size: 20px;
   color: $white;
   text-align: left;
+  padding: 9px 10px 9px 21px;
   border-radius: 0 !important;
   span {
     vertical-align: middle;
@@ -61,6 +62,9 @@ h3 {
     display: inline-block;
     margin-left: 40px;
   }
+  &:hover {
+    color: $white;
+  }
 }
 .brand {
   img {
@@ -70,7 +74,7 @@ h3 {
 footer {
   background: $blue;
   color: $white;
-  padding: 51px 0;
+  padding: 57px 0;
   p {
     margin: 0;
     font-size: 16px;
@@ -87,10 +91,13 @@ footer {
     }
   }
   .icon-twitter, .icon-fb {
-    font-size: 43px;
+    font-size: 52px;
   }
   li {
     vertical-align: middle;
+  }
+  ul {
+    margin-top: -17px;
   }
 }
 #fine-print {

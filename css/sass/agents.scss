@@ -62,7 +62,6 @@ header {
 }
 #how, #why, #agents {
   background: $white;
-  padding: 30px;
 }
 #banner2 {
   @include banner('../images/agents/agent-banner2.jpg');
@@ -105,16 +104,121 @@ header {
 }
 #why {
   text-align: center;
+  height: 600px;
+  padding-top: 94px;
+  padding-bottom: 115px;
+  color: $blue;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 110px;
+  }
+  h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.75;    
+  }
   img {
     width: 65px;
+    margin-bottom: 25px;
+  }
+  .mid {
+    padding: 0 45px;
   }
 }
 #rates {
   @include banner('../images/agents/agent-banner3.jpg');
+  padding-top: 94px;
+  color: $blue;
+  height: 900px;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 55px;
+    line-height: 1.2;
+    color: $blue;
+  }
+  .tier {
+    border: 1px $blue solid;
+    padding: 0 37px;
+    font-size: 16px;
+    margin-bottom: 75px;
+    li {
+      border-bottom: 1px $blue solid;
+      padding: 12px 0 16px 0;
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+  .type, .price {
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+  small {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .btn {
+    margin-bottom: 120px;
+  }
+  .underline {
+    text-decoration: underline;
+    color: $blue;
+  }
+}
+#agents {
+  padding-top: 94px;
+  color: $blue;
+  height: 1100px;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 55px;
+  }
+  .col-md-4 {
+    padding: 0 36px;
+  }
+  img {
+    margin-bottom: 65px;
+  }
+  .name {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .experience {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  hr {
+    margin: 25px 0;
+  }
+  .quotes {
+    width: 27.5px;
+    margin-bottom: 19px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .details {
+    padding: 0 20px;
+    letter-spacing: .1em;
+  }
 }
 #start {
   background: $yellow;
+  color: $white;
+  padding: 71px 0;
+  h2 {
+    margin: 0;
+    margin-top: 10px;
+  }
   &:hover {
     background: $yellow-hover;
+  }
+  .icon-arrow {
+    font-size: 62px;
   }
 }
