@@ -138,15 +138,11 @@ header {
   }
   .tier {
     border: 1px $blue solid;
-    padding: 0 37px;
+    padding: 15px 37px;
     font-size: 16px;
     margin-bottom: 75px;
-    li {
-      border-bottom: 1px $blue solid;
-      padding: 12px 0 16px 0;
-      &:last-child {
-        border: none;
-      }
+    img {
+      padding: 18px 0 16px 0;
     }
   }
   .type, .price {
@@ -215,5 +211,65 @@ header {
   }
   .icon-arrow {
     font-size: 62px;
+  }
+}
+/** Iphone **/
+@media (max-width: 480px) {
+  .row, .navbar-nav, .navbar-header {
+    margin: 0 !important;
+  }
+  .brand img {
+    margin-left: 0;
+    width: 100px;
+  }
+  .highlight {
+    font-size: 12px;
+  }
+  header {
+    padding: 15px 0;
+  }
+  .btn {
+    font-size: 14px !important;
+    margin-bottom: 20px;
+    width: 315px;
+    .icon-arrow {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  #banner1 {
+    margin-top: 130px;
+    p {
+      color: $blue;
+      text-align: center;
+    }
+  }
+  .brand {
+    .subtext {
+      font-size: 14px;
+    }
+  }
+  #how {
+    padding-top: 60px;
+    img {
+      padding: 40px 0;
+    }
+  }
+  #banner2 {
+    padding-top: 30px;
+    dd {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+  }
+  #why {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    h2 {
+      margin-bottom: 40px;
+    }
+    .mid {
+      padding: 50px 22px;
+    }
   }
 }
