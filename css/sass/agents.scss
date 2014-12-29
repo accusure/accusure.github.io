@@ -14,43 +14,37 @@ header {
     margin-top: 7px;
     margin-bottom: 0;
   }
-  .highlight {
-    color: #c5c52c;
-    text-transform: uppercase;
-    font-weight: 700;
-  }
   .secure {
     text-transform: uppercase;
     font-size: 10px;
     padding-top: 16px;
   }
 }
+.highlight {
+  color: #c5c52c;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .brand {
-  padding-top: 3px;
-  img {
-    margin-right: 20px;
-    margin-left: 26px;
+  a {
+    margin: 4px 20px 0 26px;
   }
   .subtext {
     border-left: 1px $white solid;
     font-size: 19px;
     font-weight: 300;
-    padding-left: 20px;
-    vertical-align: middle;
+    padding: 3px 0 0 20px;
     display: table-cell;
-    height: 19px;
   }
 }
 .btn {
   background: $yellow;
-  width: 404px;
   &:hover {
     background: $yellow-hover;
   }
-}
-.content {
-  margin-top: 140px;
-  color: $white;
+  .icon-arrow {
+    margin-left: 104px;
+  }
 }
 .bottom {
   margin-top: 68px;
@@ -61,6 +55,10 @@ header {
   color: $white;
   h1 {
     margin-bottom: 27px;
+  }
+  .content {
+    margin-top: 140px;
+    color: $white;
   }
 }
 #how, #why, #agents {
@@ -201,7 +199,6 @@ header {
 }
 #start {
   background: $yellow;
-  color: $white;
   padding: 71px 0;
   h2 {
     margin-top: 10px;
@@ -209,21 +206,16 @@ header {
   &:hover {
     background: $yellow-hover;
   }
-  .icon-arrow {
-    font-size: 62px;
-  }
 }
 /** Iphone **/
 @media (max-width: 480px) {
-  .row, .navbar-nav, .navbar-header {
-    margin: 0 !important;
-  }
-  .brand img {
-    margin-left: 0;
+  .brand a {
+    margin: 0 20px 0 5px;
     width: 100px;
   }
   .highlight {
     font-size: 12px;
+    margin-left: 6px;
   }
   header {
     padding: 15px 0;
@@ -238,7 +230,7 @@ header {
     }
   }
   #banner1 {
-    margin-top: 130px;
+    margin-top: 102px;
     p {
       color: $blue;
       text-align: center;
@@ -257,19 +249,43 @@ header {
   }
   #banner2 {
     padding-top: 30px;
+    h1 {
+      margin-bottom: 30px !important;
+    }
     dd {
-      font-size: 16px;
+      font-size: 14px;
       margin-bottom: 24px;
+      margin-top: 10px;
+      padding: 0 15px;
+      line-height: 1.5;
+    }
+    .btn {
+      margin: 10px 0 40px 0
     }
   }
   #why {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     h2 {
-      margin-bottom: 40px;
+      margin-bottom: 25px;
     }
     .mid {
-      padding: 50px 22px;
+      padding: 30px 22px;
     }
+  }
+  footer {
+    text-align: center;
+    .text-right {
+      text-align: center;
+    }
+    ul {
+      margin-top: 0;
+      li:first-child {
+        display: block;
+      }
+    }
+  }
+  .mobile-hide {
+    display: none;
   }
 }

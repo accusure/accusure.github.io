@@ -25,7 +25,6 @@ h1 {
 }
 h2 {
   font-size: 38px;
-  color: $light-blue;
 }
 h3 {
   font-size: 22px;
@@ -34,28 +33,19 @@ h3 {
 .fa-lock {
   margin-right: 10px;
 }
-.nav {
-  .secure {
-    padding: 33px 15px 33px 35px;
-    display: block;
-    color: #668ead;
-    text-transform: uppercase;
-    font-size: 10px;
-  }
-}
 .btn {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   color: $white;
+  width: 400px;
   text-align: left;
-  padding: 9px 10px 9px 21px;
+  padding: 8px 0 7px 20px;
   border-radius: 0 !important;
   span {
     vertical-align: middle;
   }
   .icon-arrow {
     font-size: 40px;
-    float: right;
   }
   img {
     width: 40px;
@@ -67,6 +57,7 @@ h3 {
   }
 }
 .brand {
+  display: block;
   img {
     width: 110px;
   }
@@ -93,11 +84,12 @@ footer {
   .icon-twitter, .icon-fb {
     font-size: 52px;
   }
-  li {
-    vertical-align: middle;
-  }
   ul {
     margin-top: -17px;
+    li {
+      vertical-align: middle;
+      padding: 0 !important;
+    }
   }
 }
 #fine-print {
@@ -108,14 +100,18 @@ footer {
   }
 }
 #start {
-  padding: 60px 0;
   height: auto;
-  h2 {
-    color: $white;
-  }
+  color: $white;
   .img-responsive {
     padding: 40px 0;
     width: 62px;
     margin-left: -50px;
   }
+  .icon-arrow {
+    font-size: 62px;
+  }
+}
+.navbar-toggle {
+  border: none;
+  margin-right: 5px;
 }
