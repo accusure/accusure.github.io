@@ -331,14 +331,15 @@ and (max-width : 1024px) {
   .content {
     margin-top: 30%;
   }
-  .btn {
-    font-size: 14px !important;
-  }
   #banner {
     .starburst {
       width: 150px;
-      right: 150px;
+      right: 370px;
+      bottom: 110px;
     }
+  }
+  #banner2 {
+    background-position: -350px 0;
   }
   #features {
     padding: 50px 0;
@@ -349,7 +350,10 @@ and (max-width : 1024px) {
       padding-right: 0;
     }
   }
-  #why {padding: 50px 0;}
+  #why {
+    padding: 50px 0;
+    height: auto;
+  }
   #team {
     padding-top: 30px;
     .details {
@@ -360,9 +364,7 @@ and (max-width : 1024px) {
     }
   }
   #banner3 {
-    h1, p {
-      color: darken($white, 100%) !important;
-    }
+    background-position: -120px 0;
   }
   #start {
     .starburst {
