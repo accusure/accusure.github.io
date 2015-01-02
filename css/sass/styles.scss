@@ -12,6 +12,9 @@ hr {
   border-color: #0f4576;
   margin: 35px 0;
 }
+a {
+  color: $light-blue;
+}
 p {
   font-size: 22px;
   font-family: 'Oxygen', sans-serif;
@@ -114,4 +117,49 @@ footer {
 .navbar-toggle {
   border: none;
   margin-right: 5px;
+}
+
+/** LOGIN & FORGOT PASSWORD **/
+#login {
+  @include banner('../images/blur.jpg');
+  margin-top: 80px;
+  height: 775px;
+  h1, h3 {
+    color: $white;
+  }
+  h3 {
+    margin-bottom: 17px;
+  }
+  .content {
+    margin-top: 165px;
+  }
+  .icon-arrow {
+    margin-left: 200px;
+  }
+}
+form {
+  .btn {
+    text-align: center;
+    background: #048cb9;
+    padding: 12px;
+    &:hover {
+      background: $light-blue;
+    }
+  }
+  .btn-block {
+    width: 100%;
+  }
+  .form-control {
+    background: transparent;
+    border: 1px $white solid;
+    border-radius: 0;
+    color: $white;
+    font-size: 20px;
+    padding: 29px 20px;
+  }
+  .note {
+    font-size: 16px;
+    color: $white;
+    margin-top: 16px;
+  }
 }
