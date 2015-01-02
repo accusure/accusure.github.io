@@ -289,3 +289,65 @@ header {
     display: none;
   }
 }
+/** Ipad **/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+  .btn {
+    width: 330px !important;
+  }
+  .nav {
+    margin-left: 0;
+    a {
+      padding: 20px 19px !important;
+    }
+  }
+  #banner1 {
+    margin-top: 140px;
+    background-position: -150px 0;
+  }
+  #how {
+    height: auto;
+  }
+  #banner2 {
+    background-position: -150px 0;
+    dd {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  }
+  #why {
+    height: auto;
+    h2 {
+      margin-bottom: 50px;
+    }
+  }
+  #rates {
+    background-position: -200px 0;
+    h2 {
+      margin-bottom: 50px;
+    }
+    .btn {
+      margin-bottom: 60px;
+    }
+    small, .underline {
+      color: $white;
+    }
+  }
+  #agents {
+    height: auto;
+    h2 {
+      margin-bottom: 25px;
+    }
+    .details {
+      margin-bottom: 100px;
+    }
+    .col-md-4 {
+      padding: 0 5px;
+    }
+    img {
+      width: 220px;
+      margin: 20px auto;
+    }
+  }
+}

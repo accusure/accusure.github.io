@@ -328,17 +328,21 @@ section {
 @media only screen 
 and (min-width : 768px) 
 and (max-width : 1024px) {
+  .container {
+    width: 738px;
+  }
   .content {
     margin-top: 30%;
-  }
-  .btn {
-    font-size: 14px !important;
   }
   #banner {
     .starburst {
       width: 150px;
-      right: 150px;
+      right: 360px;
+      bottom: 110px;
     }
+  }
+  #banner2 {
+    background-position: -350px 0;
   }
   #features {
     padding: 50px 0;
@@ -349,25 +353,22 @@ and (max-width : 1024px) {
       padding-right: 0;
     }
   }
-  #why {padding: 50px 0;}
+  #why {
+    padding: 50px 0;
+    height: auto;
+  }
   #team {
     padding-top: 30px;
-    .details {
-      padding: 0 25px;
-    }
     .social {
       margin-top: 50px;
     }
   }
   #banner3 {
-    h1, p {
-      color: darken($white, 100%) !important;
-    }
+    background-position: -120px 0;
   }
-  #start {
-    .starburst {
-      width: 150px;
-    }
+  #video {
+    height: auto;
+    padding: 100px 0;
   }
   .nav>li>a {
     padding: 30px 15px;
@@ -388,15 +389,8 @@ and (orientation : landscape) {
       right: 30px;
     }
   }
-  #banner2 {
-    p {
-      font-size: 19px;
-    }
-  }
-  #banner3 {
-    h1, p {
-      color: $white !important;
-    }
+  #banner2, #banner3 {
+    background-position: 0;
   }
   #video {
     .col-md-8 {
