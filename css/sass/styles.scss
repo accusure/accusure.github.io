@@ -120,10 +120,10 @@ footer {
 }
 
 /** LOGIN & FORGOT PASSWORD **/
-#login {
+#login, #forgotpassword {
   @include banner('../images/blur.jpg');
   margin-top: 80px;
-  height: 775px;
+  height: 750px;
   h1, h3 {
     color: $white;
   }
@@ -133,6 +133,8 @@ footer {
   .content {
     margin-top: 165px;
   }
+}
+#login {
   .icon-arrow {
     margin-left: 200px;
   }
@@ -163,3 +165,22 @@ form {
     margin-top: 16px;
   }
 }
+#forgotpassword {
+  .col-md-6 {
+    padding: 0 42px;
+  }
+  .back {
+    margin-top: 31px;
+    font-size: 16px;
+  }
+}
+.form-control::-webkit-input-placeholder {color: $white;}
+.form-control:-moz-placeholder {
+  color: $white;
+  opacity: 1;
+}
+.form-control::-moz-placeholder {
+  color: $white;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {color: $white;}
