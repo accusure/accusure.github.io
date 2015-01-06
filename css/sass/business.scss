@@ -40,12 +40,6 @@ section {
   h1, p { 
     color: $blue;
   }
-  .starburst {
-    width: 180px;
-    position: absolute; 
-    right: 40px;
-    bottom: 30px;
-  }
 }
 #banner2 {
   @include banner('../images/business/biz-banner2.jpg');
@@ -169,15 +163,8 @@ section {
 #start {
   padding: 60px 0;
   background: $green;
-  position: relative;
   &:hover {
     background: darken($green, 5%);
-  }
-  .starburst {
-    width: 180px;
-    position: absolute;
-    right: 40px;
-    top: -90px;
   }
 }
 /** Iphone **/
@@ -186,12 +173,6 @@ section {
   .navbar {min-height: 50px;}
   .brand { margin: 15px; }
   #banner {
-    .starburst {
-      bottom: 0;
-      top: 5px;
-      right: 20px;
-      width: 150px;
-    }
   }
   hr {margin: 27px 0;}
   .btn {
@@ -302,11 +283,6 @@ section {
     h2 {
       margin: 0;
     }
-    .starburst {
-      width: 150px;
-      top: -130px;
-      right: 82px;
-    }
   }
   footer {
     .text-right, .text-center {
@@ -333,13 +309,6 @@ and (max-width : 1024px) {
   }
   .content {
     margin-top: 30%;
-  }
-  #banner {
-    .starburst {
-      width: 150px;
-      right: 360px;
-      bottom: 110px;
-    }
   }
   #banner2 {
     background-position: -350px 0;
@@ -383,12 +352,6 @@ and (max-width : 1024px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-  #banner {
-    .starburst {
-      bottom: 130px;
-      right: 30px;
-    }
-  }
   #banner2, #banner3 {
     background-position: 0;
   }
